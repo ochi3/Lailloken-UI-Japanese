@@ -1,0 +1,976 @@
+;#####################################################
+;## general information/instructions
+;#####################################################
+
+;## purpose of this file
+	;## this file contains all the strings that are displayed in the script's UIs
+
+
+;## file structure
+	;## the script ignores TABs, empty lines, as well as lines/sections marked as comments (;##)
+	;## each non-comment line in this file is a key/value pair, divided into two parts:
+		;##	key			=	"value"
+		;## the value has to be enclosed in quotation marks
+
+
+;## how to translate/localize the data in this file
+	;## NEVER edit the key of a line, i.e. whatever is left of the equal sign
+	;## if a value contains an abbreviation or text-string that's not immediately clear, look for comments or at the key-name for more context (e.g. global_calibrate = "cal")
+	;## unlike the client.txt file, this file contains strings that can be freely translated however you see fit
+
+
+;## some notation remarks
+	;## in order to add line-breaks to a string, include ";" in the value, e.g. "line 1;line2"
+	;## I often use <> as a replacement for quotation marks because they look better when using Fontin Smallcaps
+
+
+;## case-sensitivity
+	;## I personally prefer to display these strings all lower-case because I think it looks better with Fontin Smallcaps
+
+
+
+;#####################################################
+;## system-settings
+;#####################################################
+
+;## these are some global system-settings that are dependant on the target language
+		system_font			=	"Meiryo"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
+											;## this key is also present in the client.txt file, where it takes precedence (i.e. the value there will override this one)
+
+
+;#####################################################
+;## credits: translators
+;#####################################################
+
+;## these names will be shown in a tooltip when hovering over the "credits" label	;## the tooltip is segmented into smaller boxes
+		translator			=	"ochi3"			;## you can add additional <contributor> lines, and each value will have its own box
+
+
+
+;#####################################################
+;## settings menu: sections
+;#####################################################
+
+;## these are the individual sections of the settings menu, and most refer to a feature
+;## these don't necessarily have to be translated, it's up to the translator(s)
+;## the feature-names are used here and there, so make sure to be consistent across each mention
+		ms_general			=	"一般設定"
+		ms_betrayal-info		=	"ビトレイアル"
+		ms_cheat-sheets			=	"チートシート"
+		ms_clone-frames			=	"クローンフレーム"
+		ms_donations			=	"寄付"
+		ms_filterspoon			=	"filterspoon"
+		ms_hotkeys			=	"キー設定"
+		ms_item-info			=	"アイテム情報"
+		ms_leveling tracker		=	"act-tracker"
+		ms_mapping tracker		=	"map-tracker"
+		ms_map-info			=	"map-info"
+		ms_minor qol tools		=	"minor qol tools"
+		ms_sanctum			=	"sanctum planner"
+		ms_screen-checks		=	"screen-checks"
+		ms_search-strings		=	"search-strings"
+		ms_stash-ninja			=	"stash-ninja"
+		ms_stream-clients		=	"stream-clients"
+		ms_tldr-tooltips		=	"tldr-tooltips"
+		ms_updater			=	"アップデート"
+
+
+
+;#####################################################
+;## global: recurring/common strings
+;#####################################################
+
+;## these strings are commonly used throughout the script
+global_screencap        =   "スクリーンキャプチャ"
+global_error           =   "エラー"
+global_success         =   "成功"
+global_fail            =   "失敗"
+global_abort           =   "中止"
+global_delete          =   "削除"
+global_delete          =   "削除"
+global_scan            =   "スキャン中..."
+global_scan            =   "スキャン"
+global_match           =   "一致しません"
+global_match           =   "不十分"
+global_window          =   "設定メニュー"
+global_general         =   "一般設定:"
+global_ui              =   "UI設定:"
+global_font            =   "フォントサイズ:"
+global_button          =   "ボタンサイズ:"
+global_enable          =   "有効化"
+global_reset           =   "リセット"
+global_color           =   "色"
+global_color           =   "色:"
+global_opacity         =   "透明度:"
+global_tier            =   "ティア"
+global_ilvl            =   "アイテムレベル"
+global_name            =   "名前:"
+global_type            =   "タイプ:"
+global_add             =   "追加"
+global_calibrate       =   "調整"
+global_calibrate       =   "調整が必要"
+global_import          =   "インポート"
+global_test            =   "テスト"
+global_edit            =   "編集"
+global_info            =   "情報"
+global_negative        =   "ネガティブ"
+global_positive        =   "ポジティブ"
+global_paste           =   "貼り付け"
+global_snip            =   "切り抜き"
+global_show            =   "表示"
+global_preview         =   "プレビュー"
+global_image           =   "画像"
+global_save            =   "保存"
+global_discard         =   "破棄"
+global_restart         =   "適用して再起動"
+global_imgfolder       =   "画像フォルダを開く"
+global_newentry        =   "新しいエントリ:"
+global_savedentry      =   "保存されたエントリ:"
+global_errorname       =   "入力は空白にできません"
+global_errorname       =   "無効な入力"
+global_errorname       =   "英字、スペース、数字のみ"
+global_errorname       =   "名前はすでに使用されています"
+global_errorname       =   "名前に含められない文字:;"
+global_inventory       =   "インベントリ"
+global_skilltree       =   "スキルツリー"
+global_ascendancy      =   "アセンダンシーツリー"
+global_stash           =   "保管庫"
+global_nothing         =   "表示するものはありません"
+global_imageinvalid    =   "クリップボードに画像データが見つかりません"
+global_releasekey      =   "リリースキー:"
+global_configwindow    =   "設定ウィンドウを閉じてください"
+global_ultrawide       =   "現在のアスペクト比はゲームの公式サポート範囲よりも広いです。"
+global_ultrawide       =   "MODを使用していない限り、クライアントにはサイドに黒いバーが表示されます。"
+global_ultrawide       =   "クライアントのサイドに黒いバーがありますか?"
+global_credits         =   "クレジット"
+global_none            =   "なし"
+global_axis            =   "X軸"
+global_axis            =   "Y軸"
+global_width           =   "幅"
+global_height          =   "高さ"
+global_gap             =   "隙間"
+global_pattern         =   "パターン"  ;## 色パターン
+global_regular         =   "レギュラー"  ;## デフォルト
+global_setup           =   "セットアップ"
+global_variance        =   "ばらつき (0-255)"
+global_hotkey          =   "ホットキー:"
+global_panelsize       =   "パネルサイズ:"
+global_uisize          =   "UIサイズ:"
+global_auto            =   "自動"
+global_price           =   "価格"
+global_all             =   "すべて"
+global_confirm         =   "確認"
+global_mouse           =   "左#中#右"  ;## 左、中央、右マウスボタン
+global_coordinates     =   "座標"
+global_time            =   "時間:"
+global_refresh         =   "更新"
+global_settings        =   "設定"
+global_regex           =   "正規表現をコピー"
+global_clipboard       =   "クリップボードにコピー"
+global_start           =   "開始"
+global_cancel          =   "キャンセル"
+global_downloading     =   "ダウンロード中..."
+global_search          =   "検索:"
+global_toggle          =   "切り替え"
+global_hide            =   "非表示"
+global_revert          =   "元に戻す"
+global_apply           =   "適用"
+global_apply           =   "変更を適用"
+
+mechanic_bestiary      =   "ベスティアリー"
+mechanic_betrayal      =   "ビトレイヤル"
+mechanic_blight        =   "ブライト"
+mechanic_delirium      =   "デリリウム"
+mechanic_delve         =   "デルヴ"
+mechanic_expedition    =   "エクスペディション"
+mechanic_harvest       =   "ハーベスト"
+mechanic_incursion     =   "インカージョン"
+mechanic_legion        =   "リージョン"
+mechanic_ritual        =   "リチュアル"
+mechanic_vaal area     =   "ヴァールエリア"
+mechanic_abyssal depths =   "アビス"
+mechanic_lab trial     =   "ラボ"
+mechanic_ultimatum     =   "アルティメイタム"
+mechanic_maven         =   "メイヴェン"
+mechanic_baran         =   "バラン"
+mechanic_drox          =   "ドロクス"
+mechanic_al-hezmin     =   "アルヘズミン"
+mechanic_veritania     =   "ヴェリタニア"
+mechanic_constrictor   =   "コンストリクター"
+mechanic_enslaver      =   "エンスレイバー"
+mechanic_eradicator    =   "エラディケーター"
+mechanic_purifier      =   "ピュアリファイヤー"
+
+
+;#####################################################
+;## betrayal-info
+;#####################################################
+
+;## in order to use the betrayal-info feature with a different language, the script will access the file "data\Betrayal_XYZ.json"
+;## make a copy of "data\Betrayal.json" and rename that accordingly, then translate the contained strings with reward-texts
+;## the file is structured as follows:
+;## object "aisling":
+;##	object "rewards":
+;##		array "transportation":
+;##			string 1: "this is the regular reward"
+;##			string 2: "this is the ruthless reward"
+;## ONLY TRANSLATE THE STRINGS, NOT THE OBJECT/ARRAY NAMES
+
+
+;## these strings are displayed/required in the betrayal overlays, using only the short version in order to make the overlay more compact
+;## it's not likely any name other than "it" needs to be translated, but I have still included the whole list just in case
+		betrayal_aisling		=	"アシュリング"
+		betrayal_cameria		=	"カミリア"
+		betrayal_elreon			=	"エルレオン"
+		betrayal_gravicius		=	"グラヴィシウス"
+		betrayal_guff			=	"ガフ"
+		betrayal_haku			=	"ハク"
+		betrayal_hillock		=	"ヒロック"
+		betrayal_it			=	"	逃げたもの"
+		betrayal_janus			=	"ヤーネス"
+		betrayal_jorgin			=	"ジョーギン"
+		betrayal_korell			=	"コレル"
+		betrayal_leo			=	"リオ"
+		betrayal_riker			=	"ライカー"
+		betrayal_rin			=	"リン"
+		betrayal_tora			=	"トーラ"
+		betrayal_vagan			=	"ヴェイガン"
+		betrayal_vorici			=	"ヴォリーチ"
+
+
+;## these division strings are displayed at the top of the overlay, using abbreviations (where applicable) in order to make it more compact
+		betrayal_transportation = "輸送"
+		betrayal_fortification = "防衛"
+		betrayal_unassigned = "未割り当て" ;## メンバーが任意の部門に割り当てられていないことを指します
+		betrayal_research = "研究"
+		betrayal_intervention = "介入"
+
+
+;## these division strings are displayed in the calibration setup-window (not abbreviated)
+		betrayal_transportation = "輸送"
+		betrayal_fortification = "防衛"
+		betrayal_research = "研究"
+		betrayal_intervention = "介入"
+		betrayal_abort = "ゲームに戻って中止"
+
+
+
+;#####################################################
+;## cheat-sheet toolkit
+;#####################################################
+
+;## these strings are displayed/required when using the cheat-sheet toolkit feature
+		cheat_header = "チートシート設定"
+		cheat_check = "画面チェック:"
+		cheat_static = "静的"
+		cheat_dynamic = "動的"
+		cheat_activation = "起動:"
+		cheat_hold = "保持"
+		cheat_manage = "画像ファイル管理:"
+		cheat_title = "ウィンドウタイトル:"
+		cheat_launch = "ウィンドウが見つからない場合、代わりにこのアプリを起動:"
+		cheat_exe = ".exe/ショートカットを選択"
+		cheat_notes = "選択したエントリのメモを入力:"
+		cheat_calibrate = "この画面チェックがリンクされているエントリを指定"
+		cheat_entrynotext = "エントリ <#> にテキストがありません"
+		cheat_nowindowtitle = "チートシートにウィンドウタイトルがありません"
+		cheat_nowindow = "ウィンドウが見つかりませんでした: #"
+		cheat_nofiles = "チートシートにインポートされたファイルがありません"
+		cheat_shorttitle = "タイトルが短すぎます"
+		cheat_noexe = "最初にファイルを選択してください"
+		cheat_multifiles = "インデックス00に複数のファイルを貼り付けることはできません"
+		cheat_filemissing = "ファイルが存在しません"
+		cheat_loaderror = "ファイルを読み込めません:"
+		cheat_duplicate = "同じ名前のチートシートがすでに存在します。上書きされます。続けますか?"
+
+
+
+;#####################################################
+;## item-info
+;#####################################################
+
+;## these strings are displayed/required when using the item-info feature
+		iteminfo_unsupported = "アイテムはサポートされていません"
+		iteminfo_dps = "DPS" ;## 一秒あたりのダメージ
+		iteminfo_base = "ベース" ;## アイテムベース / クラフトベース
+		iteminfo_ruleblock = "グローバルルールによってブロックされている"
+		iteminfo_clearfirst = "クラス固有のハイライトを最初にクリア"
+		iteminfo_drop_tier = "ドロップ" ;## ドロップされたアイテム（例：ボスドロップ、ウーバードロップ、T0ドロップ）
+		iteminfo_drop_league = "リーグ" ;## ユニークアイテムは特定のリーグに限定されている...
+		iteminfo_drop_boss = "ボス"
+		iteminfo_drop_limited = "限定" ;## ディビジョンカードや特別なイベント（例：鬼殺し）に限定
+		iteminfo_drop_uber = "ウバー"
+		iteminfo_drop_recipe = "レシピ" ;## ベンダーレシピ
+		iteminfo_drop_pinnacle = "ピナクル"
+		iteminfo_drop_vaal = "ヴァール" ;## 専用の腐敗アイテム
+		iteminfo_drop_retired = "リタイア" ;## 現在は入手できないアイテム
+		iteminfo_drop_unknown = "不明" ;## このユニークアイテムに関するデータベースエントリがない（例：新リーグ）
+		iteminfo_drop_global = "グローバル"
+
+
+
+;#####################################################
+;## leveling tracker / act-tracker
+;#####################################################
+
+;## these strings are displayed/required when using the leveling tracker / act-tracker
+		lvltracker_header = "スキルツリー設定"
+		lvltracker_deleteall = "すべて削除"
+		lvltracker_gemnotes = "POBには含まれていない"
+		lvltracker_gearlist = "キャラ (レベル):" ;## ギアトラッカーの上部に表示される: "キャラ (レベル): Lailloken (69)"
+		lvltracker_gearadd = "アイテム追加済み"
+		lvltracker_gearadd = "アイテムはすでに追加されています"
+		lvltracker_gearadd = "アイテムはすでに装備可能です"
+		lvltracker_gearadd = "アイテムには必要条件がありません"
+		lvltracker_gear5levels = "次の5レベルのみ表示"
+		lvltracker_flip = "画像を切り替えることができません"
+		lvltracker_flip = "セグメント化されたチートシート内"
+		lvltracker_flip = "文字キーを使用した後"
+		lvltracker_endreached = "これ以上進めません"
+		lvltracker_fastforwarderror = "現在の位置は残りのステップに含まれていません"
+		lvltracker_guidemissing = "ガイドがまだインポートされていません"
+		lvltracker_importerror = "'ジェムのみ'ガイドはサポートされていません" ;## exile-levelingには「ジェムのみ」オプションがあります
+		lvltracker_importerror = "無効なインポートデータ"
+		lvltracker_multipaste = "一部のファイルはサポートされていません"
+		lvltracker_multipaste = "アセンデンシーツリーにはマルチペーストはサポートされていません"
+		lvltracker_multipaste = "# エントリーが#から始まると、上書きされる可能性があります。続けますか？" ;## これらは数値のプレースホルダです
+		lvltracker_noimages = "画像ファイルが見つかりません"
+		lvltracker_timererror = "再開できません: ランは完了しています" ;## キャンペーンタイマーは、ランが終了しているため再開できません
+		lvltracker_timererror = "<トワイライト・ストランド>に入力してリセットしてください" ;## タイマーは新しいキャラでのみリセットできます
+		lvltracker_timererror = "タイマーを一時停止してください"
+		lvltracker_timererror = "ハイドアウト一時停止設定でブロックされています" ;## 「ハイドアウトでタイマーを一時停止」の設定が手動再開をブロックしています
+		lvltracker_timermessage = "ランが開始されました"
+		lvltracker_timermessage = "タイマーが再開されました"
+		lvltracker_timermessage = "タイマーが一時停止されました"
+		lvltracker_treeerror = "スキルツリーのバージョンが互換性がありません"
+		lvltracker_treenone = "インポートされたPOBに使用可能なツリーがありません"
+		lvltracker_treeascendancy = "スロットが空です"
+
+
+;#####################################################
+;## lootfilter / filterspoon
+;#####################################################
+
+;## these strings are displayed/required when using the lootfilter / filterspoon feature
+		lootfilter_basefilter = "フィルター:"
+		lootfilter_modifications = "現在の変更:"
+		lootfilter_unsaved = "長押しして破棄"
+		lootfilter_update = "ベースフィルターの更新を適用"
+		lootfilter_addstack = "スタックを追加:"
+		lootfilter_selection = "現在の選択:"
+
+
+
+;#####################################################
+;## mapping tracker
+;#####################################################
+
+;## these strings are displayed/required when using the mapping tracker feature
+		maptracker_kills = "オムニキーを押して;キルトラッカーを開始"
+		maptracker_kills = "キルカウントが更新されました"
+		maptracker_check = "マップ内容をダブルチェック!"
+		maptracker_save = "マップがログに保存されました"
+		maptracker_save = "マップ内では保存できません"
+		maptracker_loot = "アイテムがログに保存されました"
+		maptracker_loot = "アイテムが削除されました"
+		maptracker_loot = "エラー"
+		maptracker_export = "エクスポート"
+		maptracker_logs = "ログ:"
+		maptracker_logs = "マップログが見つかりませんでした"
+		maptracker_page = "ページ:"
+		maptracker_page = "ページエントリ数:" ;## 各ページに表示するエントリ数
+		maptracker_header = "マップログビューア"
+		maptracker_dialogue = "<チャットへの出力ダイアログ>をゲームの<UI>設定で有効にする必要があります"
+
+;## these strings are displayed/required at the top of the map-log viewer, using the shortest length possible in order to be more compact
+		maptracker_time = "時間" ;## 時間 (例: 14:20)
+		maptracker_time = "日付, 時間"
+		maptracker_map = "マップ"
+		maptracker_tier = "ティア/レベル" ;## (マップ) ティア / (エリア) レベル
+		maptracker_tier = "ティア/レベル" ;## マップティア / エリアレベル
+		maptracker_run = "ラン" ;## ランタイム（マップを完了するのにかかった時間）
+		maptracker_e-exp = "有効経験値" ;## ペナルティ後の実効経験値
+		maptracker_deaths = "死亡数"
+		maptracker_portals = "ポータル数"
+		maptracker_kills1 = "キル数"
+		maptracker_loot1 = "戦利品"
+		maptracker_mapinfo = "Mods" ;## MapMods
+		maptracker_notes = "メモ"
+		maptracker_character = "キャラクター"
+		maptracker_content = "コンテンツ" ;## マップコンテンツ（リーグメカニクス、サイドエリアなど）
+
+;## these strings are displayed in the sum/average tooltips (while long-clicking colored cells in the Σ row)
+		maptracker_sum = "合計"
+		maptracker_average = "平均"
+
+;## these strings are displayed in the date selection
+		maptracker_all = "すべて選択"
+		maptracker_periods = "年:"
+		maptracker_periods = "リーグ:"
+		maptracker_periods = "月:"
+		maptracker_periods = "日:"
+
+
+
+;#####################################################
+;## minor QoL tools
+;#####################################################
+
+;## these strings are displayed/required when using minor QoL tools
+		notepad_addgems = "ジェムが追加されました"
+		notepad_addgems = "ジェムはすでに追加されています"
+		lab_outdated = "レイアウトが古いです！"
+		lab_outdated = "読み込まれた:"
+		lab_outdated = "最新:"
+		lab_mismatch = "レイアウトが一致しません！"
+		lab_mismatch = "現在:"
+		lab_movemarker = "長押ししてマーカーをここに移動"
+
+
+
+;#####################################################
+;## OCR / screen-reading
+;#####################################################
+
+;## these strings are displayed/required when using OCR features
+		ocr_notext = "テキストが見つかりませんでした"
+		ocr_nousecase = "使用ケースが不明です"  ;## スキャンしたテキストがどの使用ケースにも適合しません
+		ocr_nocoords = "座標を取得できませんでした"
+		ocr_erroraltar = "modsを正確に読み取れませんでした。再試行してください"
+		ocr_vaalarea = "エリア"
+		ocr_vaalboss = "ボス"
+		ocr_vaalmonsters = "モンスター"
+		ocr_vaalplayer = "プレイヤー"
+		ocr_vaalvessel = "器"
+		ocr_vaalunclear = "不明"
+
+
+
+;#####################################################
+;## omni-key
+;#####################################################
+
+;## these strings are displayed/required when using the omni-key to access features
+		omnikey_language = "omniキーはサポートされていないゲーム内言語には使用できません"
+		omnikey_copyfail = "クリップボードコピーに失敗しました"
+		omnikey_escape = "(escで終了)"
+		omnikey_scroll = "スクロール中..."  ;## スクロールホイールのこと
+		omnikey_chromes = "<総スロット>欄をクリックしてスペースキーを押してください"  ;## chromatic-calcサイトの「総スロット」に関連
+		omnikey_clustersearch = "ctrl-fを押して選択した宝石タイプをハイライト"
+		omnikey_labimport = "ラボの難易度を選択"
+		omnikey_labimport = "レイアウト画像を右クリック"
+		omnikey_labimport = "<画像をコピー>をクリック（オプション）："  ;## ブラウザで画像を右クリックしたとき
+		omnikey_labimport = "<ラボコンパスファイル>を右クリック"
+		omnikey_labimport = "<リンクアドレスをコピー>をクリック"  ;## ブラウザでリンクを右クリックしたとき
+		omnikey_poedb = "修飾子"  ;## poeDBサイトのこのセクションの名前、トップに表示される： https://poedb.tw/us/Modifiers
+
+
+
+;#####################################################
+;## recombination
+;#####################################################
+
+;## these strings are displayed/required when using the recombination feature
+		recomb_prefixes = "希望するprefixe:"
+		recomb_suffixes = "希望するsuffixe:"
+		recomb_simulation = "シミュレーション:"
+		recomb_desired = "希望するアフィックスが多すぎます"
+		recomb_rerun = "再実行"
+		recomb_refresh = "クリックして更新"
+
+
+
+;#####################################################
+;## sanctum planner
+;#####################################################
+
+;## these strings are displayed/required when using the sanctum planner
+		sanctum_calibrate = "パスを調整"
+		sanctum_calibrate = "部屋を調整"
+
+		sanctum_floors			=	"sanctum archives"
+		sanctum_floors			=	"sanctum vaults"
+		sanctum_floors			=	"sanctum cathedral"
+		sanctum_floors			=	"sanctum necropolis"
+
+		sanctum_rooms_1			=	"mini-boss"
+		sanctum_rooms_2			=	"find exit"
+		sanctum_rooms_3			=	"clear room"
+		sanctum_rooms_4			=	"exit traps"
+		sanctum_rooms_5			=	"battle arena"
+
+		sanctum_rooms_1_1		=	"scriptorium"
+		sanctum_rooms_1_2		=	"reliquary"
+		sanctum_rooms_1_3		=	"sanctum bellum"
+		sanctum_rooms_1_4		=	"mausoleum"
+
+		sanctum_rooms_2_1		=	"abandoned library"
+		sanctum_rooms_2_2		=	"decrepit cellar"
+		sanctum_rooms_2_3		=	"halls of worship"
+		sanctum_rooms_2_4		=	"undercroft"
+
+		sanctum_rooms_3_1		=	"chambers of inscription"
+		sanctum_rooms_3_2		=	"derelict caverns"
+		sanctum_rooms_3_3		=	"unholy lair"
+		sanctum_rooms_3_4		=	"lost catacombs"
+
+		sanctum_rooms_4_1		=	"holy trials"
+		sanctum_rooms_4_2		=	"gauntlet"
+		sanctum_rooms_4_3		=	"crucible"
+		sanctum_rooms_4_4		=	"entombment"
+
+		sanctum_rooms_5_1		=	"templar annals"
+		sanctum_rooms_5_2		=	"battlegrounds"
+		sanctum_rooms_5_3		=	"infernum"
+		sanctum_rooms_5_4		=	"desecrated crypt"
+
+		sanctum_info			=	"ben. fountain (150c):;+1 boon;"	;## semicolon at the end to make it three lines
+		sanctum_info			=	"rad. fountain (5c):;+1 boon, -1 affl, +200 insp;rerolls afflicted rooms"
+
+
+
+
+;#####################################################
+;## screen-checks
+;#####################################################
+
+;## these strings are displayed/required when using the screen-checks feature
+		screen_snipinstructions = "左クリックドラッグ: 通常のスニップ"
+		screen_snipinstructions = "右クリックドラッグ: 調整可能なスニップ"
+		screen_snipinstructions = "WASD: 調整可能なスニップを移動"
+		screen_snipinstructions = "Shift + WASD: 調整可能なスニップをサイズ変更"
+		screen_snipinstructions = "スペース: 調整可能なスニップを確定"
+		screen_snipinstructions = "Esc: 終了"
+
+;#####################################################
+;## search-strings
+;#####################################################
+
+;## these strings are displayed/required when using the search-strings feature
+		search_header			=	"検索文字列の設定:"
+
+
+
+;#####################################################
+;## seed-explorer / vilsol's calculator
+;#####################################################
+
+;## these strings are displayed/required when using the seed-explorer feature
+		seed_profile			=	"プロフィール:"
+		seed_jewel			=	"ジュエル:"
+		seed_seed			=	"シード:"				;## タイムレスジュエルでロールされる番号
+		seed_conqueror			=	"征服者:"			;## ロールされる名前
+		seed_trade			=	"取引確認"			;## 取引サイトを開くボタン
+		seed_keystones			=	"キーストーン:"
+		seed_notables			=	"結果的なノータブル:"		;## ジュエルによって変更された後のノータブル
+		seed_notables			=	"ソケット周辺のノータブル:"	;## パッシブツリーのジュエルソケット周辺の範囲内
+		seed_notables			=	"レギオンノータブル:"
+		seed_download			=	"データベースをダウンロード"
+		seed_update			=	"データベースを更新"
+		seed_uptodate			=	"データベースは最新です"
+
+
+
+;#####################################################
+;## stash-ninja
+;#####################################################
+
+;## these strings are displayed/required when using the stash-ninja feature
+		stash_update			=	"poe.ninjaの価格を更新中..."
+		stash_updateerror		=	"更新に失敗しました。以前の成功した試行からのフォールバックデータがありません。接続の問題である可能性があり、時間をおいて再度試してください。"
+		stash_updateerror		=	"更新に失敗しました"
+		stash_value			=	"市場価値"
+		stash_reminder			=	"<note> に切り替えてください"
+		stash_limits			=	"レート制限:"			;## GGGのAPIには、アクセス頻度を制御するための階層的なレート制限があります
+		stash_open			=	"オープン"				;## "Xの取引リストがオープンしている"の文脈で
+		stash_nolistings		=	"取引リストはありません;オンライン"		;## 現在そのアイテムを売っている人がいない
+		stash_bulk			=	"バルク:"
+		stash_stock			=	"在庫"				;## 利用可能な在庫として
+		stash_pricetags			=	"価格タグ:"
+		stash_solo			=	"ソロ"				;## 単独の人/物/理由として
+		stash_sell			=	"売る"
+		stash_sell			=	"ため"				;## これら二つは一緒に使います。例えば「XをYのために売る」
+		stash_bookmark			=	"ブックマークプロフィール"
+
+
+;#####################################################
+;## minor QoL features
+;#####################################################
+
+;## these strings are displayed/required when using the minor QoL features
+		notepad_add			=	"新しいタブを追加:"
+		notepad_howto			=	"ウィジェットの使い方"
+
+
+
+
+;#####################################################
+;## settings menu: general
+;#####################################################
+
+;## these strings are displayed/required in the "general" section of the settings menu
+		m_general_settings = "スクリプト設定："
+		m_general_kill = "ゲーム終了後 x 分で終了："
+		m_general_browser = "ブラウザ機能"
+		m_general_capslock = "CapsLock の切り替え" ;## デフォルトでは、AHK はキーストロークを送信するたびに CapsLock を切り替えます
+		m_general_character = "現在のキャラクター："
+		m_general_build = "現在のビルド："
+		m_general_level = "レベル"
+		m_general_client = "ゲームクライアント設定："
+		m_general_client = "ゲームクライアント情報："
+		m_general_logfile = "ログファイルの状態："
+		m_general_language = "言語："
+		m_general_language = "検出された言語："
+		m_general_language = "サポートされていません"
+		m_general_language = "(一部の機能は使用できない可能性があります)"
+		m_general_display = "検出されたウィンドウ：" ;## クライアントウィンドウを指します
+		m_general_display = "ウィンドウ化された全画面表示"
+		m_general_display = "ウィンドウモード"
+		m_general_display = "ボーダレスウィンドウ"
+		m_general_resolution = "カスタム解像度："
+		m_general_filler = "クライアントの周囲の画面領域を黒くする"
+		m_general_position = "ウィンドウの位置："
+		m_general_posleft = "左"
+		m_general_poscenter = "中央"
+		m_general_posright = "右"
+		m_general_postop = "上"
+		m_general_posbottom = "下"
+		m_general_borderless = "ボーダレスウィンドウモードを適用"
+		m_general_blackbars = "クライアントの側面に黒い帯があります" ;## 黒い帯はレターボックスを指します
+		m_general_permissions = "スクリプト書き込み権限のテスト："
+		m_general_start = "テストを開始"
+		m_general_admin = "管理者としてスクリプトを再起動"
+		m_general_toolbar = "toolbar-size："
+		m_general_hidetoolbar = "使用していないときにツールバーを非表示"
+
+
+
+
+;#####################################################
+;## settings menu: general (write-permissions test)
+;#####################################################
+
+;## these strings are displayed/required in the "test results" window after running the test
+		m_permission_header = "テスト結果"
+		m_permission_yes = "はい"
+		m_permission_no = "いいえ"
+		m_permission_unknown = "不明"
+		m_permission_admin = "管理者権限でスクリプトを起動しました："
+		m_permission_folder = "フォルダを作成可能："
+		m_permission_folder = "フォルダを削除可能："
+		m_permission_ini = "iniファイルを作成可能："
+		m_permission_ini = "iniファイルに書き込み可能："
+		m_permission_ini = "iniファイルを削除可能："
+		m_permission_image = "画像ファイルを作成可能："
+		m_permission_image = "画像ファイルを削除可能："
+		m_permission_error = "以前のテストから残っているファイルがあり、スクリプトがそれらを削除できません。"
+		m_permission_error = "このメッセージを閉じた後に開くフォルダ内の 'write-test' フォルダを削除してください。"
+
+;## these strings are displayed/required in an error-message related to write-permissions
+		m_permission_error1 = "スクリプトがファイル/フォルダを作成できませんでした："
+		m_permission_error1 = "スクリプトがファイル/フォルダを削除できませんでした："
+		m_permission_error1 = "現在のフォルダ位置で書き込み権限に問題があるようです。"
+		m_permission_error1 = "スクリプトを別の場所に移動するか、管理者として実行してみてください。"
+		m_permission_error1 = "この問題をトラブルシュートするために、設定メニューにある書き込み権限テストを使用できます。"
+		m_permission_error1 = "この問題を解決することを強くお勧めします。さもないと多くの機能が正しく動作しません。"
+
+
+
+;#####################################################
+;## settings menu: betrayal-info
+;#####################################################
+
+;## these strings are displayed/required in the "betrayal-info" section of the settings menu
+		m_betrayal_enable = "ビトレイヤルオーバーレイを有効化"
+		m_betrayal_ruthless = "ruthlessモードの報酬とハイライト" ;## 通常報酬とruthlessモードの報酬を切り替えるトグル
+		m_betrayal_recognition = "画像認識："
+		m_betrayal_colors = "報酬の色："
+		m_betrayal_rewards = "報酬のカスタマイズ："
+
+
+
+;#####################################################
+;## settings menu: cheat-sheets
+;#####################################################
+
+;## these strings are displayed/required in the "cheat-sheets" section of the settings menu
+		m_cheat_enable = "チートシートツールキットを有効化"
+		m_cheat_hotkeys = "ホットキー設定："
+		m_cheat_modifier = "オムニキー修飾キー：" ;## 修飾キー (ALT、CTRL など) を指します
+		m_cheat_modifier = "Alt"
+		m_cheat_modifier = "Ctrl"
+		m_cheat_modifier = "Shift"
+		m_cheat_advance = "高度なチートシート"
+		m_cheat_create = "新しいチートシートを作成："
+		m_cheat_images = "画像"
+		m_cheat_app = "アプリ"
+		m_cheat_advanced = "高度な設定"
+		m_cheat_list = "利用可能なチートシート一覧："
+
+
+
+;#####################################################
+;## settings menu: clone-frames
+;#####################################################
+
+;## these strings are displayed/required in the "clone-frames" section of the settings menu
+		m_clone_toggle = "自動切り替え："
+		m_clone_gamescreen = "ゲーム画面以外では非表示"
+		m_clone_hideout = "隠れ家/街では非表示"
+		m_clone_list = "利用可能なクローンフレーム一覧："
+		m_clone_new = "新規追加"
+		m_clone_editing = "クローンフレームの編集："
+		m_clone_sourcexy = "ソースの x/y："
+		m_clone_widthheight = "幅/高さ："
+		m_clone_targetxy = "ターゲットの x/y："
+		m_clone_scale = "スケール："
+		m_clone_exitedit = "最初に編集モードを終了してください"
+		m_clone_errorborders = "無効なフレーム境界"
+
+
+
+;#####################################################
+;## settings menu: hotkeys
+;#####################################################
+
+;## these strings are displayed/required in the "hotkeys" section of the settings menu
+		m_hotkeys_settings = "ゲーム内キー設定："
+		m_hotkeys_descriptions = "<詳細アイテム説明の表示>は Alt キーに割り当てられていません" ;## ゲーム内の設定、通常は ALT に割り当て
+		m_hotkeys_descriptions = "代わりに次に割り当てられています："
+		m_hotkeys_ckey = "C キーが<キャラクタースクリーン>以外の用途に使用されています" ;## ゲーム内の設定、デフォルトは C
+		m_hotkeys_movekey = "移動キー：" ;## キャラクターの移動に使用するキー、デフォルトは左クリック
+		m_hotkeys_omnikey = "オムニキー設定："
+		m_hotkeys_omnikey = "中ボタンを次に置き換える："
+		m_hotkeys_omnikey = "オムニキー 2（アイテム用）："
+		m_hotkeys_keyblock = "ネイティブ機能を無効化" ;## ネイティブとは、通常そのキーが行う動作（CapsLock が大文字切り替え、Windows キーがスタートメニューを開くなど）
+		m_hotkeys_misc = "その他のキー："
+		m_hotkeys_tab = "Tab キーを次に置き換える："
+		m_hotkeys_emergency = "緊急再起動：" ;## スクリプトがクラッシュ/フリーズした場合の強制再起動用ホットキー
+		m_hotkeys_error = "無効なホットキー"
+		m_hotkeys_error = "重複したキー割り当てが検出されました"
+		m_hotkeys_error = "Alt キーが再割り当てされていますが、代替キーが設定されていません" ;## 特定のチェックボックスが選択されている場合、代替ホットキーを設定する必要があります
+		m_hotkeys_error = "C キーが再割り当てされていますが、オムニキー 2 が設定されていません" ;## このメッセージは代替ホットキーが提供されていない場合に表示されます
+
+
+;#####################################################
+;## settings menu: item-info
+;#####################################################
+
+;## these strings are displayed/required in the "item-info" section of the settings menu
+		m_iteminfo_profiles = "プロファイル設定："
+		m_iteminfo_profiles = "プロファイル選択："
+		m_iteminfo_profiles = "プロファイルのリセット：" ;## 2 つのオプションから選択可能：プロファイルの「希望する」または「希望しない」Mod
+		m_iteminfo_desired = "ほしい"
+		m_iteminfo_undesired = "ほしくない"
+		m_iteminfo_modrolls = "明示的な Mod のロール範囲を非表示"
+		m_iteminfo_shift = "Shift+クリックでアイテム情報を有効化"
+		m_iteminfo_league = "リーグスタートモードを有効化"
+		m_iteminfo_base = "アイテムの基礎ステータスを表示・比較" ;## 基礎ステータスは、防御力、回避率、エナジーシールド、攻撃速度、物理/元素ダメージなど
+		m_iteminfo_ilvl = "アイテムレベル要件を表示"
+		m_iteminfo_highlight = "カスタマイズされたハイライト："
+		m_iteminfo_fractured = "Fr" ;## この「Fr」は「Fractured（分裂）」の略語で、最大 2〜3 文字までにする
+		m_iteminfo_override = "<ほしくない> がティア/アイテムレベルの色を上書き"
+		m_iteminfo_rules = "全体ルール/上書き："
+		m_iteminfo_rules = "武器耐性" ;## 武器に付与される元素耐性 Mod（通常は希望されない）
+		m_iteminfo_rules = "攻撃ダメージ"
+		m_iteminfo_rules = "スペルダメージ"
+		m_iteminfo_rules = "耐性"
+		m_iteminfo_rules = "ヒット/キル時のライフ・マナ回復"
+		m_iteminfo_rules = "クリティカル"
+
+
+
+;#####################################################
+;## settings menu: filterspoon
+;#####################################################
+
+;## these strings are displayed/required in the "filterspoon" section of the settings menu
+		m_lootfilter_enable = "フィルタースプーン機能を有効化（実験的）"
+
+
+
+
+
+
+
+
+;#####################################################
+;## settings menu: leveling tracker / act-tracker
+;#####################################################
+
+;## these strings are displayed/required in the "act-tracker" section of the settings menu
+		m_lvltracker_enable = "アクトトラッカー機能を有効化"
+		m_lvltracker_timer = "タイマーを有効化"
+		m_lvltracker_pause = "隠れ家ではタイマーを一時停止"
+		m_lvltracker_fade = "x秒後にフェードアウト:"
+		m_lvltracker_fade = "マウスホバーでフェードイン"
+		m_lvltracker_gear = "装備トラッカー"
+		m_lvltracker_zones = "ゾーンレイアウト"
+		m_lvltracker_hints = "ヒント"
+		m_lvltracker_hotkeys = "ホットキーによるページ切り替えを有効化"
+		m_lvltracker_skilltree = "スキルツリーオーバーレイ設定:"
+		m_lvltracker_pobmanual = "設計図の代わりにスクリーンキャプチャを使用"
+		m_lvltracker_pob = "PoB: 中クリックでスクリーンキャプチャメニューを開く"
+		m_lvltracker_screencap = "スクリーンキャプチャメニュー"
+		m_lvltracker_guide = "ガイド:"
+		m_lvltracker_generate = "Exile-Levelingを開く"
+		m_lvltracker_reset = "リセット"
+		m_lvltracker_incompatible = "ガイドデータが非互換です。更新が必要です。"
+		m_lvltracker_treeclear = "データを削除"
+
+
+;#####################################################
+;## settings menu: map-tracker
+;#####################################################
+
+;## these strings are displayed/required in the "map-tracker" section of the settings menu
+		m_maptracker_enable = "マップトラッカー機能を有効化"
+		m_maptracker_hide = "トラッカーが一時停止しているときにパネルを隠す"
+		m_maptracker_loot = "戦利品"
+		m_maptracker_kills = "キル数"
+		m_maptracker_mapinfo = "マップ情報データ"
+		m_maptracker_notes = "ノート"
+		m_maptracker_sidearea = "サイドエリア"
+		m_maptracker_rename = "ボスマップにタグと名前を付ける"
+		m_maptracker_character = "キャラクター/ビルド情報"
+		m_maptracker_content = "アトラスメカニクスのトラッキング"
+		m_maptracker_dialogue = "→ ダイアログトラッキング:"
+		m_maptracker_screen = "→ スクリーントラッキング:"
+		m_maptracker_portal = "ポータルスクロール使用時のリマインダー"
+		m_maptracker_portal = "ポータルスクロールのホットキー:"
+
+
+;#####################################################
+;## settings menu: map-info
+;#####################################################
+
+;## these strings are displayed/required in the "map-info" section of the settings menu
+		m_mapinfo_enable = "マップ情報パネルを有効化"
+		m_mapinfo_shift = "シフトクリックでパネルを表示"
+		m_mapinfo_tab = "タブキーを押しながらパネルを表示"
+		m_mapinfo_textcolors = "テキストカラー:"
+		m_mapinfo_header = "ヘッダー"
+		m_mapinfo_logbook = "ログブックのカラー:"
+		m_mapinfo_modsettings = "マップモッド設定:"
+		m_mapinfo_pinned = "ピン止めされたモッド:"
+		m_mapinfo_modsearch = "モッド検索:"
+		m_mapinfo_roll_highlight = "マップロールのハイライト"
+		m_mapinfo_reset = "ティアをリセット"
+
+
+;#####################################################
+;## settings menu: minor qol tools
+;#####################################################
+
+;## these strings are displayed/required in the "minor qol tools" section of the settings menu
+		m_qol_alarm = "アラーム/タイマーウィジェット:"
+		m_qol_notepad = "ノートパッド:"
+		m_qol_widget = "ウィジェットの透明度:"
+		m_qol_widgetcolor = "デフォルトのウィジェットカラー:"
+		m_qol_lab = "ラボオーバーレイ:"
+
+
+
+;#####################################################
+;## settings menu: sanctum planner
+;#####################################################
+
+;## these strings are displayed/required in the "sanctum planner" section of the settings menu
+		m_sanctum_enable = "サンクタムプランナーオーバーレイを有効化（ベータ）"
+		m_sanctum_cheatsheets = "チートシートを表示"
+
+
+;#####################################################
+;## settings menu: screen-checks
+;#####################################################
+
+;## these strings are displayed/required in the "screen-checks" section of the settings menu
+		m_screen_pixel = "アクティブなピクセルチェックのリスト:"
+		m_screen_pixel = "バックグラウンドピクセルチェックを有効化"
+		m_screen_image = "アクティブな画像チェックのリスト:"
+		m_screen_gamescreen		=	"ゲーム画面"					;## これはメイン画面を指します。つまり、キャラクターを操作し、ゲームを一般的にプレイする場所です
+
+
+
+;#####################################################
+;## settings menu: search-strings
+;#####################################################
+
+;## these strings are displayed/required in the "search-strings" section of the settings menu
+		m_search_usecases = "現在設定されているユースケース:"
+		m_search_hideout lilly = "隠れ家のリリィ" ;## 隠れ家にいるリリィ（異なる商人ウィンドウを持つ）
+		m_search_add = "ユースケースを追加:"
+
+
+;#####################################################
+;## settings menu: stash-ninja
+;#####################################################
+
+;## these strings are displayed/required in the "stash-ninja" section of the settings menu
+		m_stash_enable = "スタッシュ・ニンジャ機能を有効にする"
+		m_stash_blight = "ブライト"
+		m_stash_breach = "ブリーチ"
+		m_stash_currency1 = "通貨"
+		m_stash_currency2 = "通貨 II"
+		m_stash_delirium = "ディレリウム"
+		m_stash_delve = "デルヴ"
+		m_stash_essences = "エッセンス"
+		m_stash_fragments = "フラグメント"
+		m_stash_scarabs = "スカラベ"
+		m_stash_ultimatum = "アルティメイタム"
+		m_stash_leagues = "リーグ:"
+		m_stash_tabs = "スタッシュタブ設定:"
+		m_stash_limits = "価格帯プロファイル:"
+		m_stash_profiles = "プロファイル1-4に取引価格を適用"
+		m_stash_history = "価格履歴を表示"
+		m_stash_exalt = "エクセルトレートを表示"
+		m_stash_mintrade = "最小取引価格（カオス）:"
+		m_stash_folder = "このタブはスタッシュフォルダ内にあります"
+		m_stash_bulk = "一括販売管理を有効にする"
+		m_stash_margins = "マージン（％）:"
+		m_stash_active = "アクティブタブ:"
+		m_stash_bookmarking = "ブックマーク機能を有効にする"
+
+
+;#####################################################
+;## settings menu: tldr-tooltips
+;#####################################################
+
+;## these strings are displayed/required in the "tldr-tooltips" section of the settings menu
+		m_ocr_enable = "TLDRツールチップを有効にする（実験的）"
+		m_ocr_compatibility = "互換性をテスト"
+		m_ocr_compatibility = "上記の画像から少なくとも8つのユニークな単語を転写してください（終了するにはEscキーを押してください）"
+		m_ocr_error = "テストには少なくとも8つのユニークな単語が必要です"
+		m_ocr_error = "スクリーンキャプチャが大きすぎます"
+		m_ocr_finish = "セットアップを終了するにはEscキーを押してください"
+		m_ocr_hotkey = "<ハイライト切り替え>（ゲーム内）:"
+		m_ocr_debug = "デバッグ機能を有効にする"
+		m_ocr_unsupported = "720p以下の解像度はサポートされていません。低解像度では画面読み取りの失敗率が非常に高く、この機能はほぼ使用できません"
+
+
+;#####################################################
+;## settings menu: updater
+;#####################################################
+
+;## these strings are displayed/required in the "updater" section of the settings menu
+		m_updater_autocheck = "自動でアップデートを確認する"
+		m_updater_version = "バージョン情報:"
+		m_updater_version = "現在:"
+		m_updater_version = "最新:"
+		m_updater_versions = "利用可能なダウンロード:"
+		m_updater_github = "GitHubリンク:"
+		m_updater_github = "メインページ"
+		m_updater_github = "リリース"
+		m_updater_changelog = "完全な更新履歴"
+		m_updater_skip = "スキップ"
+		m_updater_failed = "アップデートに失敗しました:"
+		m_updater_error1 = "前回のアップデート試行は書き込み権限エラーのため失敗しました。設定の<一般>セクションを開き、下部のテストを実行してください。"
+		m_updater_error1 = "これらの問題を修正することは、アップデート機能だけでなく、他の多くの機能にも重要です。"
+		m_updater_error2 = "前回のアップデート試行は、スクリプトが最新のバージョンリストをダウンロードできなかったため失敗しました。"
+		m_updater_error2 = "これはランダムなエラーであり、次回の試行で修正されることがあります。"
+		m_updater_error2 = "修正されない場合は、手動でアップデートする必要があります。"
+		m_updater_error3 = "前回のアップデート試行は、スクリプトが現在のバージョンリストを確認できなかったため失敗しました。これはインストールの破損を示しており、できるだけ早く手動で修正する必要があります。"
+		m_updater_error4 = "前回のアップデート試行は、いくつかのファイルをダウンロードできなかったため失敗しました。"
+		m_updater_manual = "手動でアップデート"
+		m_updater_manual = "GitHubからダウンロード"
+		m_updater_download = "ダウンロードに失敗しました。GitHubのボタンを使用してください"

@@ -1,0 +1,2369 @@
+{
+  "1_1_1": {
+    "id": "1_1_1",
+    "name": "黄昏の岸辺",
+    "map_name": null,
+    "act": 1,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_town"
+    ],
+    "crafting_recipes": []
+  },
+  "1_Labyrinth_boss_3": {
+    "id": "1_Labyrinth_boss_3",
+    "name": "志す者への試練",
+    "map_name": null,
+    "act": 3,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [],
+    "crafting_recipes": [
+      "All Resistances - Rank 1"
+    ]
+  },
+  "2_Labyrinth_boss_3": {
+    "id": "2_Labyrinth_boss_3",
+    "name": "志す者への試練",
+    "map_name": null,
+    "act": 3,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [],
+    "crafting_recipes": [
+      "Double Resistances - Rank 2"
+    ]
+  },
+  "3_Labyrinth_boss_3": {
+    "id": "3_Labyrinth_boss_3",
+    "name": "志す者への試練",
+    "map_name": null,
+    "act": 3,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [],
+    "crafting_recipes": [
+      "Double Resistances - Rank 3"
+    ]
+  },
+  "1_1_town": {
+    "id": "1_1_town",
+    "name": "ライオンアイの見張り場",
+    "map_name": "ライオンアイの見張り場",
+    "act": 1,
+    "has_waypoint": true,
+    "is_town_area": true,
+    "parent_town_area_id": null,
+    "connection_ids": [
+      "1_1_1",
+      "1_1_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_2": {
+    "id": "1_1_2",
+    "name": "海岸",
+    "map_name": "海岸",
+    "act": 1,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_town",
+      "1_1_3",
+      "1_1_2a"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_3": {
+    "id": "1_1_3",
+    "name": "ぬかるみの干潟",
+    "map_name": null,
+    "act": 1,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_2",
+      "1_1_4_1",
+      "1_1_3a"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_2a": {
+    "id": "1_1_2a",
+    "name": "陸続きの島",
+    "map_name": null,
+    "act": 1,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_4_1": {
+    "id": "1_1_4_1",
+    "name": "海底通路",
+    "map_name": "海底通路",
+    "act": 1,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_3",
+      "1_1_5",
+      "1_1_4_0"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_3a": {
+    "id": "1_1_3a",
+    "name": "悪臭を放つ池",
+    "map_name": null,
+    "act": 1,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_3"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_5": {
+    "id": "1_1_5",
+    "name": "岩棚",
+    "map_name": "岩棚",
+    "act": 1,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_4_1",
+      "1_1_6"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_4_0": {
+    "id": "1_1_4_0",
+    "name": "水没した海底洞窟",
+    "map_name": null,
+    "act": 1,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_4_1"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_6": {
+    "id": "1_1_6",
+    "name": "険しい山道",
+    "map_name": "険しい山道",
+    "act": 1,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_5",
+      "1_1_7_1"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_7_1": {
+    "id": "1_1_7_1",
+    "name": "牢獄 -下層-",
+    "map_name": "牢獄",
+    "act": 1,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_6",
+      "1_1_7_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_7_2": {
+    "id": "1_1_7_2",
+    "name": "牢獄 -上層-",
+    "map_name": null,
+    "act": 1,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_7_1",
+      "1_1_8"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_8": {
+    "id": "1_1_8",
+    "name": "囚人の門",
+    "map_name": "囚人の門",
+    "act": 1,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_7_2",
+      "1_1_9",
+      "1_2_9"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_9": {
+    "id": "1_1_9",
+    "name": "船の墓場",
+    "map_name": "船の墓場",
+    "act": 1,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_8",
+      "1_1_9a",
+      "1_1_9a",
+      "1_1_11_1"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_9": {
+    "id": "1_2_9",
+    "name": "西の森",
+    "map_name": "西の森",
+    "act": 2,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_7",
+      "1_2_10",
+      "1_1_8"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_9a": {
+    "id": "1_1_9a",
+    "name": "船の墓場の洞窟",
+    "map_name": null,
+    "act": 1,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_9",
+      "1_1_9"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_11_1": {
+    "id": "1_1_11_1",
+    "name": "憤怒の洞窟",
+    "map_name": "マーヴェイルの洞窟",
+    "act": 1,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_9",
+      "1_1_11_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_7": {
+    "id": "1_2_7",
+    "name": "川沿いの道",
+    "map_name": "川沿いの道",
+    "act": 2,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_town",
+      "1_2_9",
+      "1_2_12"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_10": {
+    "id": "1_2_10",
+    "name": "編む者の巣穴",
+    "map_name": null,
+    "act": 2,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_9"
+    ],
+    "crafting_recipes": []
+  },
+  "1_1_11_2": {
+    "id": "1_1_11_2",
+    "name": "怒りの洞窟",
+    "map_name": null,
+    "act": 1,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_11_1",
+      "1_2_1"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_town": {
+    "id": "1_2_town",
+    "name": "森の野営地",
+    "map_name": "森の野営地",
+    "act": 2,
+    "has_waypoint": true,
+    "is_town_area": true,
+    "parent_town_area_id": null,
+    "connection_ids": [
+      "1_2_1",
+      "1_2_2",
+      "1_2_7"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_12": {
+    "id": "1_2_12",
+    "name": "湿地",
+    "map_name": "湿地",
+    "act": 2,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_7",
+      "1_2_11"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_1": {
+    "id": "1_2_1",
+    "name": "南の森",
+    "map_name": "南の森",
+    "act": 2,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_1_town",
+    "connection_ids": [
+      "1_1_11_2",
+      "1_2_town"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_2": {
+    "id": "1_2_2",
+    "name": "荒廃農地",
+    "map_name": null,
+    "act": 2,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_town",
+      "1_2_2a",
+      "1_2_2a",
+      "1_2_3"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_11": {
+    "id": "1_2_11",
+    "name": "ヴァールの遺跡",
+    "map_name": null,
+    "act": 2,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_12",
+      "1_2_8"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_2a": {
+    "id": "1_2_2a",
+    "name": "獣の巣",
+    "map_name": null,
+    "act": 2,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_2",
+      "1_2_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_3": {
+    "id": "1_2_3",
+    "name": "十字路",
+    "map_name": "十字路",
+    "act": 2,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_2",
+      "1_2_4",
+      "1_2_15",
+      "1_2_6_1"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_8": {
+    "id": "1_2_8",
+    "name": "北の森",
+    "map_name": "北の森",
+    "act": 2,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_11",
+      "1_2_13",
+      "1_2_14_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_4": {
+    "id": "1_2_4",
+    "name": "壊れた橋",
+    "map_name": "壊れた橋",
+    "act": 2,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_3"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_15": {
+    "id": "1_2_15",
+    "name": "フェルシュラインの遺跡",
+    "map_name": null,
+    "act": 2,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_3",
+      "1_2_5_1"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_6_1": {
+    "id": "1_2_6_1",
+    "name": "罪の間 -第一層-",
+    "map_name": "罪の間",
+    "act": 2,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_3",
+      "1_2_6_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_13": {
+    "id": "1_2_13",
+    "name": "恐怖の密林",
+    "map_name": null,
+    "act": 2,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_8"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_14_2": {
+    "id": "1_2_14_2",
+    "name": "大洞窟",
+    "map_name": "大洞窟",
+    "act": 2,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_8",
+      "1_2_14_3"
+    ],
+    "crafting_recipes": [
+      "Vaal Skill Damage - Rank 1"
+    ]
+  },
+  "1_2_5_1": {
+    "id": "1_2_5_1",
+    "name": "地下聖堂 -第一層-",
+    "map_name": "地下聖堂",
+    "act": 2,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_15",
+      "1_2_5_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_6_2": {
+    "id": "1_2_6_2",
+    "name": "罪の間 -第二層-",
+    "map_name": null,
+    "act": 2,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_6_1"
+    ],
+    "crafting_recipes": []
+  },
+  "1_2_14_3": {
+    "id": "1_2_14_3",
+    "name": "古代のピラミッド",
+    "map_name": null,
+    "act": 2,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_14_2",
+      "1_3_1"
+    ],
+    "crafting_recipes": [
+      "Spell Damage - Rank 1"
+    ]
+  },
+  "1_2_5_2": {
+    "id": "1_2_5_2",
+    "name": "地下聖堂 -第二層-",
+    "map_name": null,
+    "act": 2,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_5_1"
+    ],
+    "crafting_recipes": []
+  },
+  "1_3_1": {
+    "id": "1_3_1",
+    "name": "サーン市街",
+    "map_name": "サーン市街",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_2_town",
+    "connection_ids": [
+      "1_2_14_3",
+      "1_3_town"
+    ],
+    "crafting_recipes": [
+      "Movement Speed - Rank 1"
+    ]
+  },
+  "1_3_town": {
+    "id": "1_3_town",
+    "name": "サーンの野営地",
+    "map_name": "サーンの野営地",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": true,
+    "parent_town_area_id": null,
+    "connection_ids": [
+      "1_3_1",
+      "1_3_2",
+      "ffa1_1",
+      "Labyrinth_Airlock"
+    ],
+    "crafting_recipes": []
+  },
+  "1_3_2": {
+    "id": "1_3_2",
+    "name": "スラム",
+    "map_name": null,
+    "act": 3,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_town",
+      "1_3_3_1",
+      "1_3_10_1"
+    ],
+    "crafting_recipes": []
+  },
+  "ffa1_1": {
+    "id": "ffa1_1",
+    "name": "サーンアリーナ",
+    "map_name": null,
+    "act": 3,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": null,
+    "connection_ids": [],
+    "crafting_recipes": []
+  },
+  "Labyrinth_Airlock": {
+    "id": "Labyrinth_Airlock",
+    "name": "志す者の広場",
+    "map_name": null,
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_town",
+      "2_8_town"
+    ],
+    "crafting_recipes": []
+  },
+  "1_3_3_1": {
+    "id": "1_3_3_1",
+    "name": "火葬場",
+    "map_name": "火葬場",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_2"
+    ],
+    "crafting_recipes": [
+      "Defences - Rank 1"
+    ]
+  },
+  "1_3_10_1": {
+    "id": "1_3_10_1",
+    "name": "下水道",
+    "map_name": "下水道",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_2",
+      "1_3_5",
+      "1_3_13"
+    ],
+    "crafting_recipes": [
+      "Physical Damage - Rank 1"
+    ]
+  },
+  "2_8_town": {
+    "id": "2_8_town",
+    "name": "サーンの野営地",
+    "map_name": "サーンの野営地",
+    "act": 8,
+    "has_waypoint": true,
+    "is_town_area": true,
+    "parent_town_area_id": null,
+    "connection_ids": [
+      "2_8_1",
+      "2_8_2_1",
+      "Labyrinth_Airlock",
+      "ffa3_1"
+    ],
+    "crafting_recipes": []
+  },
+  "1_3_5": {
+    "id": "1_3_5",
+    "name": "市場",
+    "map_name": "市場",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_10_1",
+      "1_3_6",
+      "1_3_7"
+    ],
+    "crafting_recipes": []
+  },
+  "1_3_13": {
+    "id": "1_3_13",
+    "name": "黒檀の兵舎",
+    "map_name": "黒檀の兵舎",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_10_1",
+      "1_3_14_1",
+      "1_3_15"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_1": {
+    "id": "2_8_1",
+    "name": "サーンの城壁",
+    "map_name": "サーンの城壁",
+    "act": 8,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_12_2",
+      "2_8_town"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_2_1": {
+    "id": "2_8_2_1",
+    "name": "有毒な排水路",
+    "map_name": null,
+    "act": 8,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_town",
+      "2_8_2_2"
+    ],
+    "crafting_recipes": []
+  },
+  "ffa3_1": {
+    "id": "ffa3_1",
+    "name": "サーンアリーナ",
+    "map_name": null,
+    "act": 3,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": null,
+    "connection_ids": [],
+    "crafting_recipes": []
+  },
+  "1_3_6": {
+    "id": "1_3_6",
+    "name": "地下墓地",
+    "map_name": null,
+    "act": 3,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_5"
+    ],
+    "crafting_recipes": [
+      "Elemental Damage with Attacks - Rank 1"
+    ]
+  },
+  "1_3_7": {
+    "id": "1_3_7",
+    "name": "戦場",
+    "map_name": "戦場",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_5",
+      "1_3_8_1",
+      "1_3_9"
+    ],
+    "crafting_recipes": []
+  },
+  "1_3_14_1": {
+    "id": "1_3_14_1",
+    "name": "ルナリス寺院 -第一層-",
+    "map_name": "ルナリス寺院",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_13",
+      "1_3_14_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_3_15": {
+    "id": "1_3_15",
+    "name": "帝国の庭園",
+    "map_name": "帝国の庭園",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_13",
+      "1_3_17_1",
+      "1_3_18_1"
+    ],
+    "crafting_recipes": [
+      "All Attributes - Rank 1"
+    ]
+  },
+  "2_7_12_2": {
+    "id": "2_7_12_2",
+    "name": "堕落の寺院 -第二層-",
+    "map_name": null,
+    "act": 7,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_12_1",
+      "2_8_1"
+    ],
+    "crafting_recipes": [
+      "Chaos Damage - Rank 1"
+    ]
+  },
+  "2_8_2_2": {
+    "id": "2_8_2_2",
+    "name": "ドードゥリの汚水槽",
+    "map_name": "有毒な排水路",
+    "act": 8,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_2_1",
+      "2_8_3",
+      "2_8_8"
+    ],
+    "crafting_recipes": [
+      "Elemental Resistances - Rank 3"
+    ]
+  },
+  "1_3_8_1": {
+    "id": "1_3_8_1",
+    "name": "ソラリス寺院 -第一層-",
+    "map_name": "ソラリス寺院 -第一層-",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_7",
+      "1_3_8_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_3_9": {
+    "id": "1_3_9",
+    "name": "船着場",
+    "map_name": "船着場",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_7"
+    ],
+    "crafting_recipes": []
+  },
+  "1_3_14_2": {
+    "id": "1_3_14_2",
+    "name": "ルナリス寺院 -第二層-",
+    "map_name": null,
+    "act": 3,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_14_1"
+    ],
+    "crafting_recipes": [
+      "Lightning Damage - Rank 1"
+    ]
+  },
+  "1_3_17_1": {
+    "id": "1_3_17_1",
+    "name": "図書館",
+    "map_name": "図書館",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_15",
+      "1_3_17_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_3_18_1": {
+    "id": "1_3_18_1",
+    "name": "神の杖",
+    "map_name": "神の杖",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_15",
+      "1_3_18_2"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_12_1": {
+    "id": "2_7_12_1",
+    "name": "堕落の寺院 -第一層-",
+    "map_name": null,
+    "act": 7,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_11",
+      "2_7_12_2"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_3": {
+    "id": "2_8_3",
+    "name": "大遊歩道",
+    "map_name": null,
+    "act": 8,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_2_2",
+      "2_8_5"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_8": {
+    "id": "2_8_8",
+    "name": "波止場",
+    "map_name": null,
+    "act": 8,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_2_2",
+      "2_8_9"
+    ],
+    "crafting_recipes": []
+  },
+  "1_3_8_2": {
+    "id": "1_3_8_2",
+    "name": "ソラリス寺院 -第二層-",
+    "map_name": "ソラリス寺院 -第二層-",
+    "act": 3,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_8_1"
+    ],
+    "crafting_recipes": [
+      "Fire Damage - Rank 1"
+    ]
+  },
+  "1_3_17_2": {
+    "id": "1_3_17_2",
+    "name": "公文書館",
+    "map_name": null,
+    "act": 3,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_17_1"
+    ],
+    "crafting_recipes": [
+      "Life and Mana Regeneration - Rank 1"
+    ]
+  },
+  "1_3_18_2": {
+    "id": "1_3_18_2",
+    "name": "神の杖 -上層-",
+    "map_name": null,
+    "act": 3,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_18_1",
+      "1_4_1"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_11": {
+    "id": "2_7_11",
+    "name": "ヴァールの街",
+    "map_name": "ヴァールの街",
+    "act": 7,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_10",
+      "2_7_12_1"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_5": {
+    "id": "2_8_5",
+    "name": "浴場",
+    "map_name": "浴場",
+    "act": 8,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_3",
+      "2_8_6",
+      "2_8_4",
+      "2_8_14"
+    ],
+    "crafting_recipes": [
+      "Flask Duration - Rank 1"
+    ]
+  },
+  "2_8_9": {
+    "id": "2_8_9",
+    "name": "穀物倉庫",
+    "map_name": "穀物倉庫",
+    "act": 8,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_8",
+      "2_8_10",
+      "2_8_14"
+    ],
+    "crafting_recipes": []
+  },
+  "1_4_1": {
+    "id": "1_4_1",
+    "name": "水道橋",
+    "map_name": "水道橋",
+    "act": 4,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_3_town",
+    "connection_ids": [
+      "1_3_18_2",
+      "1_4_town"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_10": {
+    "id": "2_7_10",
+    "name": "土手道",
+    "map_name": "土手道",
+    "act": 7,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_8",
+      "2_7_11"
+    ],
+    "crafting_recipes": [
+      "Cold Damage - Rank 2"
+    ]
+  },
+  "2_8_6": {
+    "id": "2_8_6",
+    "name": "ルナリスの中央広場",
+    "map_name": "ルナリスの中央広場",
+    "act": 8,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_5",
+      "2_8_7_1_",
+      "2_8_13"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_4": {
+    "id": "2_8_4",
+    "name": "空中庭園",
+    "map_name": null,
+    "act": 8,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_5"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_14": {
+    "id": "2_8_14",
+    "name": "隠れた裏道",
+    "map_name": null,
+    "act": 8,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_9",
+      "2_8_5",
+      "2_8_11"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_10": {
+    "id": "2_8_10",
+    "name": "帝国の穀倉地帯",
+    "map_name": "帝国の穀倉地帯",
+    "act": 8,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_9",
+      "2_8_12_1"
+    ],
+    "crafting_recipes": []
+  },
+  "1_4_town": {
+    "id": "1_4_town",
+    "name": "ハイゲート",
+    "map_name": "ハイゲート",
+    "act": 4,
+    "has_waypoint": true,
+    "is_town_area": true,
+    "parent_town_area_id": null,
+    "connection_ids": [
+      "1_4_1",
+      "1_4_2",
+      "1_4_3_1",
+      "1_4_7"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_8": {
+    "id": "2_7_8",
+    "name": "北の森",
+    "map_name": "北の森",
+    "act": 7,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_7",
+      "2_7_9",
+      "2_7_10"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_7_1_": {
+    "id": "2_8_7_1_",
+    "name": "ルナリス寺院 -第一層-",
+    "map_name": "ルナリス寺院",
+    "act": 8,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_6",
+      "2_8_7_2"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_13": {
+    "id": "2_8_13",
+    "name": "港の橋",
+    "map_name": null,
+    "act": 8,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_6",
+      "2_8_11",
+      "2_8_11",
+      "2_9_1"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_11": {
+    "id": "2_8_11",
+    "name": "ソラリスの中央広場",
+    "map_name": "ソラリスの中央広場",
+    "act": 8,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_12_1",
+      "2_8_13",
+      "2_8_13",
+      "2_8_14"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_12_1": {
+    "id": "2_8_12_1",
+    "name": "ソラリス寺院 -第一層-",
+    "map_name": "ソラリス寺院",
+    "act": 8,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_10",
+      "2_8_11",
+      "2_8_12_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_4_2": {
+    "id": "1_4_2",
+    "name": "干上がった湖",
+    "map_name": null,
+    "act": 4,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_town"
+    ],
+    "crafting_recipes": [
+      "Attack, Cast and Warcry Speed - Rank 1"
+    ]
+  },
+  "1_4_3_1": {
+    "id": "1_4_3_1",
+    "name": "鉱山 -第一層-",
+    "map_name": null,
+    "act": 4,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_town",
+      "1_4_3_2"
+    ],
+    "crafting_recipes": [
+      "Socket Colours"
+    ]
+  },
+  "1_4_7": {
+    "id": "1_4_7",
+    "name": "頂への道",
+    "map_name": null,
+    "act": 4,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_town",
+      "1_5_1"
+    ],
+    "crafting_recipes": [
+      "Ailment, Stun and Curse Mitigation - Rank 1"
+    ]
+  },
+  "2_7_7": {
+    "id": "2_7_7",
+    "name": "焼け野原",
+    "map_name": "焼け野原",
+    "act": 7,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_6",
+      "2_7_8"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_9": {
+    "id": "2_7_9",
+    "name": "恐怖の密林",
+    "map_name": null,
+    "act": 7,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_8"
+    ],
+    "crafting_recipes": [
+      "Fire Damage - Rank 2"
+    ]
+  },
+  "2_8_7_2": {
+    "id": "2_8_7_2",
+    "name": "ルナリス寺院 -第二層-",
+    "map_name": null,
+    "act": 8,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_7_1_"
+    ],
+    "crafting_recipes": [
+      "Minions - Rank 1"
+    ]
+  },
+  "2_9_1": {
+    "id": "2_9_1",
+    "name": "血の水道橋",
+    "map_name": "血の水道橋",
+    "act": 9,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_13",
+      "2_9_town"
+    ],
+    "crafting_recipes": []
+  },
+  "2_8_12_2": {
+    "id": "2_8_12_2",
+    "name": "ソラリス寺院 -第二層-",
+    "map_name": null,
+    "act": 8,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_8_town",
+    "connection_ids": [
+      "2_8_12_1"
+    ],
+    "crafting_recipes": [
+      "Traps and Mines - Rank 1"
+    ]
+  },
+  "1_4_3_2": {
+    "id": "1_4_3_2",
+    "name": "鉱山 -第二層-",
+    "map_name": null,
+    "act": 4,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_3_1",
+      "1_4_3_3"
+    ],
+    "crafting_recipes": []
+  },
+  "1_5_1": {
+    "id": "1_5_1",
+    "name": "奴隷収容所",
+    "map_name": "奴隷収容所",
+    "act": 5,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_7",
+      "1_5_town"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_6": {
+    "id": "2_7_6",
+    "name": "獣の巣",
+    "map_name": "獣の巣",
+    "act": 7,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_5_2",
+      "2_7_7"
+    ],
+    "crafting_recipes": []
+  },
+  "2_9_town": {
+    "id": "2_9_town",
+    "name": "ハイゲート",
+    "map_name": "ハイゲート",
+    "act": 9,
+    "has_waypoint": true,
+    "is_town_area": true,
+    "parent_town_area_id": null,
+    "connection_ids": [
+      "2_9_1",
+      "2_9_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_4_3_3": {
+    "id": "1_4_3_3",
+    "name": "水晶鉱脈",
+    "map_name": "水晶鉱脈",
+    "act": 4,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_3_2",
+      "1_4_4_1",
+      "1_4_5_1",
+      "1_4_6_1"
+    ],
+    "crafting_recipes": [
+      "Cold Damage - Rank 1"
+    ]
+  },
+  "1_5_town": {
+    "id": "1_5_town",
+    "name": "監督官の塔",
+    "map_name": "監督官の塔",
+    "act": 5,
+    "has_waypoint": true,
+    "is_town_area": true,
+    "parent_town_area_id": null,
+    "connection_ids": [
+      "1_5_1",
+      "1_5_2"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_5_2": {
+    "id": "2_7_5_2",
+    "name": "罪の間 -第二層-",
+    "map_name": null,
+    "act": 7,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_5_1",
+      "2_7_6"
+    ],
+    "crafting_recipes": [
+      "Mana Regen - Rank 1"
+    ]
+  },
+  "2_9_2": {
+    "id": "2_9_2",
+    "name": "谷底への道",
+    "map_name": null,
+    "act": 9,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_9_town",
+    "connection_ids": [
+      "2_9_town",
+      "2_9_3"
+    ],
+    "crafting_recipes": []
+  },
+  "1_4_4_1": {
+    "id": "1_4_4_1",
+    "name": "カオムの夢",
+    "map_name": null,
+    "act": 4,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_3_3",
+      "1_4_4_3"
+    ],
+    "crafting_recipes": []
+  },
+  "1_4_5_1": {
+    "id": "1_4_5_1",
+    "name": "ダレッソの夢",
+    "map_name": null,
+    "act": 4,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_3_3",
+      "1_4_5_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_4_6_1": {
+    "id": "1_4_6_1",
+    "name": "魔獣の内部 -第一層-",
+    "map_name": null,
+    "act": 4,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_3_3",
+      "1_4_6_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_5_2": {
+    "id": "1_5_2",
+    "name": "奴隷管理区画",
+    "map_name": null,
+    "act": 5,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_5_town",
+    "connection_ids": [
+      "1_5_town",
+      "1_5_town",
+      "1_5_3"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_5_1": {
+    "id": "2_7_5_1",
+    "name": "罪の間 -第一層-",
+    "map_name": "罪の間",
+    "act": 7,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_2",
+      "2_7_5_2",
+      "2_7_5_map"
+    ],
+    "crafting_recipes": [
+      "Lightning Damage - Rank 2"
+    ]
+  },
+  "2_9_3": {
+    "id": "2_9_3",
+    "name": "ヴァスティリ砂漠",
+    "map_name": "ヴァスティリ砂漠",
+    "act": 9,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_9_town",
+    "connection_ids": [
+      "2_9_2",
+      "2_9_4",
+      "2_9_5"
+    ],
+    "crafting_recipes": [
+      "Attack and Cast Speed - Rank 2"
+    ]
+  },
+  "1_4_4_3": {
+    "id": "1_4_4_3",
+    "name": "カオムの要塞",
+    "map_name": "カオムの要塞",
+    "act": 4,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_4_1"
+    ],
+    "crafting_recipes": [
+      "Socket Links - 2 to 4 Linked Sockets"
+    ]
+  },
+  "1_4_5_2": {
+    "id": "1_4_5_2",
+    "name": "大闘技場",
+    "map_name": "大闘技場",
+    "act": 4,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_5_1"
+    ],
+    "crafting_recipes": [
+      "Socket Numbers - 2 to 4 Sockets"
+    ]
+  },
+  "1_4_6_2": {
+    "id": "1_4_6_2",
+    "name": "魔獣の内部 -第二層-",
+    "map_name": null,
+    "act": 4,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_6_1",
+      "1_4_6_3"
+    ],
+    "crafting_recipes": [
+      "Elemental Resistances - Rank 2"
+    ]
+  },
+  "1_5_3": {
+    "id": "1_5_3",
+    "name": "オリアス広場",
+    "map_name": "オリアス広場",
+    "act": 5,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_5_town",
+    "connection_ids": [
+      "1_5_2",
+      "1_5_4"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_2": {
+    "id": "2_7_2",
+    "name": "十字路",
+    "map_name": "十字路",
+    "act": 7,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_1",
+      "2_7_3",
+      "2_7_5_1"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_5_map": {
+    "id": "2_7_5_map",
+    "name": "マリガロの聖域",
+    "map_name": null,
+    "act": 7,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_5_1"
+    ],
+    "crafting_recipes": []
+  },
+  "2_9_4": {
+    "id": "2_9_4",
+    "name": "オアシス",
+    "map_name": null,
+    "act": 9,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_9_town",
+    "connection_ids": [
+      "2_9_3"
+    ],
+    "crafting_recipes": []
+  },
+  "2_9_5": {
+    "id": "2_9_5",
+    "name": "山麓",
+    "map_name": "山麓",
+    "act": 9,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_9_town",
+    "connection_ids": [
+      "2_9_3",
+      "2_9_6",
+      "2_9_7"
+    ],
+    "crafting_recipes": []
+  },
+  "1_4_6_3": {
+    "id": "1_4_6_3",
+    "name": "摘出",
+    "map_name": "摘出",
+    "act": 4,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_4_town",
+    "connection_ids": [
+      "1_4_6_2",
+      "1_4_town"
+    ],
+    "crafting_recipes": []
+  },
+  "1_5_4": {
+    "id": "1_5_4",
+    "name": "テンプラーの裁判所",
+    "map_name": "テンプラーの裁判所",
+    "act": 5,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_5_town",
+    "connection_ids": [
+      "1_5_3",
+      "1_5_5"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_1": {
+    "id": "2_7_1",
+    "name": "壊れた橋",
+    "map_name": null,
+    "act": 7,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_town",
+      "2_7_2"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_3": {
+    "id": "2_7_3",
+    "name": "フェルシュラインの遺跡",
+    "map_name": null,
+    "act": 7,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_2",
+      "SanctumFoyer_Fellshrine",
+      "2_7_4"
+    ],
+    "crafting_recipes": []
+  },
+  "2_9_6": {
+    "id": "2_9_6",
+    "name": "沸き立つ湖",
+    "map_name": null,
+    "act": 9,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_9_town",
+    "connection_ids": [
+      "2_9_5"
+    ],
+    "crafting_recipes": [
+      "Spell Damage - Rank 3"
+    ]
+  },
+  "2_9_7": {
+    "id": "2_9_7",
+    "name": "坑道",
+    "map_name": "坑道",
+    "act": 9,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_9_town",
+    "connection_ids": [
+      "2_9_5",
+      "2_9_8"
+    ],
+    "crafting_recipes": [
+      "All Attributes - Rank 2"
+    ]
+  },
+  "1_5_5": {
+    "id": "1_5_5",
+    "name": "イノセンスの間",
+    "map_name": "イノセンスの間",
+    "act": 5,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_5_town",
+    "connection_ids": [
+      "1_5_4",
+      "1_5_4b"
+    ],
+    "crafting_recipes": [
+      "Movement Speed and Exerted Attacks - Rank 2"
+    ]
+  },
+  "2_7_town": {
+    "id": "2_7_town",
+    "name": "橋の野営地",
+    "map_name": "橋の野営地",
+    "act": 7,
+    "has_waypoint": true,
+    "is_town_area": true,
+    "parent_town_area_id": null,
+    "connection_ids": [
+      "2_6_15",
+      "2_7_1"
+    ],
+    "crafting_recipes": []
+  },
+  "SanctumFoyer_Fellshrine": {
+    "id": "SanctumFoyer_Fellshrine",
+    "name": "禁断のサンクタム",
+    "map_name": null,
+    "act": 7,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_3"
+    ],
+    "crafting_recipes": []
+  },
+  "2_7_4": {
+    "id": "2_7_4",
+    "name": "地下聖堂",
+    "map_name": "地下聖堂",
+    "act": 7,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_7_town",
+    "connection_ids": [
+      "2_7_3"
+    ],
+    "crafting_recipes": [
+      "Damage over Time - Rank 1"
+    ]
+  },
+  "2_9_8": {
+    "id": "2_9_8",
+    "name": "採石場",
+    "map_name": "採石場",
+    "act": 9,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_9_town",
+    "connection_ids": [
+      "2_9_7",
+      "2_9_9",
+      "2_9_10_1"
+    ],
+    "crafting_recipes": [
+      "Physical Damage - Rank 3"
+    ]
+  },
+  "1_5_4b": {
+    "id": "1_5_4b",
+    "name": "焼けた裁判所",
+    "map_name": null,
+    "act": 5,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_5_town",
+    "connection_ids": [
+      "1_5_5",
+      "1_5_3b"
+    ],
+    "crafting_recipes": []
+  },
+  "2_6_15": {
+    "id": "2_6_15",
+    "name": "海水の王の岩礁",
+    "map_name": "海水の王の岩礁",
+    "act": 6,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_14",
+      "2_7_town"
+    ],
+    "crafting_recipes": []
+  },
+  "2_9_9": {
+    "id": "2_9_9",
+    "name": "精錬所",
+    "map_name": null,
+    "act": 9,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_9_town",
+    "connection_ids": [
+      "2_9_8"
+    ],
+    "crafting_recipes": [
+      "Trigger a Socketed Spell when you Use a Skill"
+    ]
+  },
+  "2_9_10_1": {
+    "id": "2_9_10_1",
+    "name": "魔獣の内部",
+    "map_name": null,
+    "act": 9,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_9_town",
+    "connection_ids": [
+      "2_9_8",
+      "2_9_10_2"
+    ],
+    "crafting_recipes": []
+  },
+  "1_5_3b": {
+    "id": "1_5_3b",
+    "name": "破壊された広場",
+    "map_name": "破壊された広場",
+    "act": 5,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_5_town",
+    "connection_ids": [
+      "1_5_4b",
+      "1_5_6",
+      "1_5_8",
+      "1_5_7"
+    ],
+    "crafting_recipes": []
+  },
+  "2_6_14": {
+    "id": "2_6_14",
+    "name": "ビーコン",
+    "map_name": "ビーコン",
+    "act": 6,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_13",
+      "2_6_15"
+    ],
+    "crafting_recipes": [
+      "Life and Mana - Rank 2"
+    ]
+  },
+  "2_9_10_2": {
+    "id": "2_9_10_2",
+    "name": "腐った核",
+    "map_name": null,
+    "act": 9,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_9_town",
+    "connection_ids": [
+      "2_9_10_1",
+      "2_10_town"
+    ],
+    "crafting_recipes": []
+  },
+  "1_5_6": {
+    "id": "1_5_6",
+    "name": "納骨堂",
+    "map_name": null,
+    "act": 5,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "1_5_town",
+    "connection_ids": [
+      "1_5_3b"
+    ],
+    "crafting_recipes": [
+      "Physical Damage - Rank 2"
+    ]
+  },
+  "1_5_8": {
+    "id": "1_5_8",
+    "name": "大聖堂の屋上",
+    "map_name": "大聖堂の屋上",
+    "act": 5,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_5_town",
+    "connection_ids": [
+      "1_5_3b",
+      "2_6_town"
+    ],
+    "crafting_recipes": []
+  },
+  "1_5_7": {
+    "id": "1_5_7",
+    "name": "聖廟",
+    "map_name": "聖廟",
+    "act": 5,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "1_5_town",
+    "connection_ids": [
+      "1_5_3b"
+    ],
+    "crafting_recipes": [
+      "Accuracy - Rank 1"
+    ]
+  },
+  "2_6_13": {
+    "id": "2_6_13",
+    "name": "怒りの洞窟",
+    "map_name": null,
+    "act": 6,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_12",
+      "2_6_14"
+    ],
+    "crafting_recipes": []
+  },
+  "2_10_town": {
+    "id": "2_10_town",
+    "name": "オリアスの船着場",
+    "map_name": "オリアスの船着場",
+    "act": 10,
+    "has_waypoint": true,
+    "is_town_area": true,
+    "parent_town_area_id": null,
+    "connection_ids": [
+      "2_9_10_2",
+      "2_10_1",
+      "2_10_6",
+      "2_11_endgame_town"
+    ],
+    "crafting_recipes": []
+  },
+  "2_6_town": {
+    "id": "2_6_town",
+    "name": "ライオンアイの見張り場",
+    "map_name": "ライオンアイの見張り場",
+    "act": 6,
+    "has_waypoint": true,
+    "is_town_area": true,
+    "parent_town_area_id": null,
+    "connection_ids": [
+      "2_6_2",
+      "2_6_1",
+      "1_5_8"
+    ],
+    "crafting_recipes": []
+  },
+  "2_6_12": {
+    "id": "2_6_12",
+    "name": "南の森",
+    "map_name": "南の森",
+    "act": 6,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_10",
+      "2_6_13"
+    ],
+    "crafting_recipes": []
+  },
+  "2_10_1": {
+    "id": "2_10_1",
+    "name": "大聖堂の屋上",
+    "map_name": null,
+    "act": 10,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_10_town",
+    "connection_ids": [
+      "2_10_town",
+      "2_10_2"
+    ],
+    "crafting_recipes": []
+  },
+  "2_10_6": {
+    "id": "2_10_6",
+    "name": "餌場",
+    "map_name": null,
+    "act": 10,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_10_town",
+    "connection_ids": [
+      "2_10_5",
+      "2_10_town"
+    ],
+    "crafting_recipes": [
+      "Life and Mana - Rank 3"
+    ]
+  },
+  "2_11_endgame_town": {
+    "id": "2_11_endgame_town",
+    "name": "カルイの海岸",
+    "map_name": "カルイの海岸",
+    "act": 11,
+    "has_waypoint": true,
+    "is_town_area": true,
+    "parent_town_area_id": null,
+    "connection_ids": [
+      "2_10_town"
+    ],
+    "crafting_recipes": [
+      "Movement Speed and Flask Enchantments - Rank 3"
+    ]
+  },
+  "2_6_2": {
+    "id": "2_6_2",
+    "name": "海岸",
+    "map_name": "海岸",
+    "act": 6,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_town",
+      "2_6_4",
+      "2_6_3"
+    ],
+    "crafting_recipes": []
+  },
+  "2_6_1": {
+    "id": "2_6_1",
+    "name": "黄昏の岸辺",
+    "map_name": null,
+    "act": 6,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_town"
+    ],
+    "crafting_recipes": []
+  },
+  "2_6_10": {
+    "id": "2_6_10",
+    "name": "川沿いの道",
+    "map_name": "川沿いの道",
+    "act": 6,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_9",
+      "2_6_11",
+      "2_6_12"
+    ],
+    "crafting_recipes": []
+  },
+  "2_10_2": {
+    "id": "2_10_2",
+    "name": "荒廃した広場",
+    "map_name": "荒廃した広場",
+    "act": 10,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_10_town",
+    "connection_ids": [
+      "2_10_1",
+      "2_10_3",
+      "2_10_9",
+      "2_10_8",
+      "2_10_5",
+      "2_10_7"
+    ],
+    "crafting_recipes": []
+  },
+  "2_10_5": {
+    "id": "2_10_5",
+    "name": "運河",
+    "map_name": null,
+    "act": 10,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_10_town",
+    "connection_ids": [
+      "2_10_2",
+      "2_10_6"
+    ],
+    "crafting_recipes": []
+  },
+  "2_6_4": {
+    "id": "2_6_4",
+    "name": "ぬかるみの干潟",
+    "map_name": null,
+    "act": 6,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_2",
+      "2_6_5"
+    ],
+    "crafting_recipes": []
+  },
+  "2_6_3": {
+    "id": "2_6_3",
+    "name": "陸続きの島",
+    "map_name": null,
+    "act": 6,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_2"
+    ],
+    "crafting_recipes": []
+  },
+  "2_6_9": {
+    "id": "2_6_9",
+    "name": "西の森",
+    "map_name": "西の森",
+    "act": 6,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_8",
+      "2_6_10"
+    ],
+    "crafting_recipes": [
+      "Attributes - Rank 2"
+    ]
+  },
+  "2_6_11": {
+    "id": "2_6_11",
+    "name": "湿地",
+    "map_name": null,
+    "act": 6,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_10"
+    ],
+    "crafting_recipes": []
+  },
+  "2_10_3": {
+    "id": "2_10_3",
+    "name": "焼けた裁判所",
+    "map_name": null,
+    "act": 10,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_10_town",
+    "connection_ids": [
+      "2_10_2",
+      "2_10_4"
+    ],
+    "crafting_recipes": []
+  },
+  "2_10_9": {
+    "id": "2_10_9",
+    "name": "納骨堂",
+    "map_name": null,
+    "act": 10,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_10_town",
+    "connection_ids": [
+      "2_10_2"
+    ],
+    "crafting_recipes": [
+      "Chaos Damage - Rank 2"
+    ]
+  },
+  "2_10_8": {
+    "id": "2_10_8",
+    "name": "聖廟",
+    "map_name": "聖廟",
+    "act": 10,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_10_town",
+    "connection_ids": [
+      "2_10_2"
+    ],
+    "crafting_recipes": []
+  },
+  "2_10_7": {
+    "id": "2_10_7",
+    "name": "奴隷管理区画",
+    "map_name": "奴隷管理区画",
+    "act": 10,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_10_town",
+    "connection_ids": [
+      "2_10_2"
+    ],
+    "crafting_recipes": []
+  },
+  "2_6_5": {
+    "id": "2_6_5",
+    "name": "カルイの要塞",
+    "map_name": null,
+    "act": 6,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_4",
+      "2_6_6"
+    ],
+    "crafting_recipes": [
+      "Defences - Rank 2"
+    ]
+  },
+  "2_6_8": {
+    "id": "2_6_8",
+    "name": "囚人の門",
+    "map_name": "囚人の門",
+    "act": 6,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_7_2",
+      "2_6_9"
+    ],
+    "crafting_recipes": []
+  },
+  "2_10_4": {
+    "id": "2_10_4",
+    "name": "冒涜された広間",
+    "map_name": "冒涜された広間",
+    "act": 10,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_10_town",
+    "connection_ids": [
+      "2_10_3"
+    ],
+    "crafting_recipes": [
+      "Accuracy - Rank 2"
+    ]
+  },
+  "2_6_6": {
+    "id": "2_6_6",
+    "name": "尾根",
+    "map_name": "尾根",
+    "act": 6,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_5",
+      "2_6_7_1"
+    ],
+    "crafting_recipes": []
+  },
+  "2_6_7_2": {
+    "id": "2_6_7_2",
+    "name": "シャヴロンの塔",
+    "map_name": null,
+    "act": 6,
+    "has_waypoint": false,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_7_1",
+      "2_6_8"
+    ],
+    "crafting_recipes": [
+      "Spell Damage - Rank 2"
+    ]
+  },
+  "2_6_7_1": {
+    "id": "2_6_7_1",
+    "name": "牢獄 -下層-",
+    "map_name": "牢獄",
+    "act": 6,
+    "has_waypoint": true,
+    "is_town_area": false,
+    "parent_town_area_id": "2_6_town",
+    "connection_ids": [
+      "2_6_6",
+      "2_6_7_2"
+    ],
+    "crafting_recipes": [
+      "Double Resistances - Rank 1"
+    ]
+  }
+}

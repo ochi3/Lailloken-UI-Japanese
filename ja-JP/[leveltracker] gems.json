@@ -1,0 +1,3775 @@
+{
+  "Metadata/Items/Gems/SkillGemFireball": {
+    "id": "Metadata/Items/Gems/SkillGemFireball",
+    "name": "ファイヤーボール",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFireball": {
+    "id": "Metadata/Items/Gems/SkillGemVaalFireball",
+    "name": "ヴァールファイヤーボール",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceNova": {
+    "id": "Metadata/Items/Gems/SkillGemIceNova",
+    "name": "アイスノヴァ",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalIceNova": {
+    "id": "Metadata/Items/Gems/SkillGemVaalIceNova",
+    "name": "ヴァールアイスノヴァ",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemLeapSlam": {
+    "id": "Metadata/Items/Gems/SkillGemLeapSlam",
+    "name": "リープスラム",
+    "primary_attribute": "strength",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemChargedDash": {
+    "id": "Metadata/Items/Gems/SkillGemChargedDash",
+    "name": "チャージドダッシュ",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemChargedAttack": {
+    "id": "Metadata/Items/Gems/SkillGemChargedAttack",
+    "name": "ブレードフラリイ",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSweep": {
+    "id": "Metadata/Items/Gems/SkillGemSweep",
+    "name": "スウィープ",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemGroundSlam": {
+    "id": "Metadata/Items/Gems/SkillGemGroundSlam",
+    "name": "グラウンドスラム",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalGroundSlam": {
+    "id": "Metadata/Items/Gems/SkillGemVaalGroundSlam",
+    "name": "ヴァールグラウンドスラム",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemCleave": {
+    "id": "Metadata/Items/Gems/SkillGemCleave",
+    "name": "クリーヴ",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemShieldCharge": {
+    "id": "Metadata/Items/Gems/SkillGemShieldCharge",
+    "name": "シールドチャージ",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemEnduringCry": {
+    "id": "Metadata/Items/Gems/SkillGemEnduringCry",
+    "name": "エンデュアリングクライ",
+    "primary_attribute": "strength",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDoubleStrike": {
+    "id": "Metadata/Items/Gems/SkillGemDoubleStrike",
+    "name": "ダブルストライク",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalDoubleStrike": {
+    "id": "Metadata/Items/Gems/SkillGemVaalDoubleStrike",
+    "name": "ヴァールダブルストライク",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemLacerate": {
+    "id": "Metadata/Items/Gems/SkillGemLacerate",
+    "name": "ラセレイト",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemElementalHit": {
+    "id": "Metadata/Items/Gems/SkillGemElementalHit",
+    "name": "エレメンタルヒット",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemImmortalCall": {
+    "id": "Metadata/Items/Gems/SkillGemImmortalCall",
+    "name": "イモータルコール",
+    "primary_attribute": "strength",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalImmortalCall": {
+    "id": "Metadata/Items/Gems/SkillGemVaalImmortalCall",
+    "name": "ヴァールイモータルコール",
+    "primary_attribute": "strength",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDualStrike": {
+    "id": "Metadata/Items/Gems/SkillGemDualStrike",
+    "name": "デュアルストライク",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemWhirlingBlades": {
+    "id": "Metadata/Items/Gems/SkillGemWhirlingBlades",
+    "name": "ワーリングブレード",
+    "primary_attribute": "dexterity",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrenzy": {
+    "id": "Metadata/Items/Gems/SkillGemFrenzy",
+    "name": "フレンジー",
+    "primary_attribute": "dexterity",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDetonateDead": {
+    "id": "Metadata/Items/Gems/SkillGemDetonateDead",
+    "name": "デトネートデッド",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalDetonateDead": {
+    "id": "Metadata/Items/Gems/SkillGemVaalDetonateDead",
+    "name": "ヴァールデトネートデッド",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVolatileDead": {
+    "id": "Metadata/Items/Gems/SkillGemVolatileDead",
+    "name": "ヴォラタイルデッド",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBoneLance": {
+    "id": "Metadata/Items/Gems/SkillGemBoneLance",
+    "name": "アンアース",
+    "primary_attribute": "dexterity",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSplitArrow": {
+    "id": "Metadata/Items/Gems/SkillGemSplitArrow",
+    "name": "スプリットアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemAddedFireDamage": {
+    "id": "Metadata/Items/Gems/SupportGemAddedFireDamage",
+    "name": "火ダメージ追加サポート",
+    "primary_attribute": "strength",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemFasterAttack": {
+    "id": "Metadata/Items/Gems/SupportGemFasterAttack",
+    "name": "アタックスピードサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles": {
+    "id": "Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles",
+    "name": "投射物追加（大）サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemLesserMultipleProjectiles": {
+    "id": "Metadata/Items/Gems/SupportGemLesserMultipleProjectiles",
+    "name": "投射物追加（小）サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemFasterProjectiles": {
+    "id": "Metadata/Items/Gems/SupportGemFasterProjectiles",
+    "name": "投射物高速化サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedColdDamage": {
+    "id": "Metadata/Items/Gems/SupportGemAddedColdDamage",
+    "name": "冷気ダメージ追加サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemAdditionalAccuracy": {
+    "id": "Metadata/Items/Gems/SupportGemAdditionalAccuracy",
+    "name": "命中率追加サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect": {
+    "id": "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect",
+    "name": "効果範囲増加サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedLightningDamage": {
+    "id": "Metadata/Items/Gems/SupportGemAddedLightningDamage",
+    "name": "雷ダメージ追加サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemColdSnap": {
+    "id": "Metadata/Items/Gems/SkillGemColdSnap",
+    "name": "コールドスナップ",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalColdSnap": {
+    "id": "Metadata/Items/Gems/SkillGemVaalColdSnap",
+    "name": "ヴァールコールドスナップ",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemRaiseZombie": {
+    "id": "Metadata/Items/Gems/SkillGemRaiseZombie",
+    "name": "ゾンビ蘇生",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPoisonArrow": {
+    "id": "Metadata/Items/Gems/SkillGemPoisonArrow",
+    "name": "コースティックアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBloodRage": {
+    "id": "Metadata/Items/Gems/SkillGemBloodRage",
+    "name": "ブラッドレイジ",
+    "primary_attribute": "dexterity",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemRighteousFire": {
+    "id": "Metadata/Items/Gems/SkillGemRighteousFire",
+    "name": "ライチャスファイヤー",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalRighteousFire": {
+    "id": "Metadata/Items/Gems/SkillGemVaalRighteousFire",
+    "name": "ヴァールライチャスファイヤー",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDischarge": {
+    "id": "Metadata/Items/Gems/SkillGemDischarge",
+    "name": "ディスチャージ",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPortal": {
+    "id": "Metadata/Items/Gems/SkillGemPortal",
+    "name": "ポータル",
+    "primary_attribute": "none",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalPortal": {
+    "id": "Metadata/Items/Gems/SkillGemVaalPortal",
+    "name": "ヴァールブリーチ",
+    "primary_attribute": "none",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemReducedMana": {
+    "id": "Metadata/Items/Gems/SupportGemReducedMana",
+    "name": "インスピレーションサポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedCriticalStrikes": {
+    "id": "Metadata/Items/Gems/SupportGemIncreasedCriticalStrikes",
+    "name": "クリティカル率増加サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedCriticalDamage": {
+    "id": "Metadata/Items/Gems/SupportGemIncreasedCriticalDamage",
+    "name": "クリティカルダメージ増加サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemKnockback": {
+    "id": "Metadata/Items/Gems/SupportGemKnockback",
+    "name": "ノックバックサポート",
+    "primary_attribute": "strength",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemLifeLeech": {
+    "id": "Metadata/Items/Gems/SupportGemLifeLeech",
+    "name": "ライフリーチサポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemManaLeech": {
+    "id": "Metadata/Items/Gems/SupportGemManaLeech",
+    "name": "マナリーチサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedChaosDamage": {
+    "id": "Metadata/Items/Gems/SupportGemAddedChaosDamage",
+    "name": "混沌ダメージ追加サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemFlickerStrike": {
+    "id": "Metadata/Items/Gems/SkillGemFlickerStrike",
+    "name": "フリッカーストライク",
+    "primary_attribute": "dexterity",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFlickerStrike": {
+    "id": "Metadata/Items/Gems/SkillGemVaalFlickerStrike",
+    "name": "ヴァールフリッカーストライク",
+    "primary_attribute": "dexterity",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSpark": {
+    "id": "Metadata/Items/Gems/SkillGemSpark",
+    "name": "スパーク",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalSpark": {
+    "id": "Metadata/Items/Gems/SkillGemVaalSpark",
+    "name": "ヴァールスパーク",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemStun": {
+    "id": "Metadata/Items/Gems/SupportGemStun",
+    "name": "スタンサポート",
+    "primary_attribute": "strength",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemIceSpear": {
+    "id": "Metadata/Items/Gems/SkillGemIceSpear",
+    "name": "アイススピアー",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemPierce": {
+    "id": "Metadata/Items/Gems/SupportGemPierce",
+    "name": "貫通サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemTrap": {
+    "id": "Metadata/Items/Gems/SupportGemTrap",
+    "name": "トラップ化サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemRaiseSpectre": {
+    "id": "Metadata/Items/Gems/SkillGemRaiseSpectre",
+    "name": "スペクター蘇生",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemInfernalBlow": {
+    "id": "Metadata/Items/Gems/SkillGemInfernalBlow",
+    "name": "インファーナルブロウ",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemGlacialHammer": {
+    "id": "Metadata/Items/Gems/SkillGemGlacialHammer",
+    "name": "グレイシャルハンマー",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalGlacialHammer": {
+    "id": "Metadata/Items/Gems/SkillGemVaalGlacialHammer",
+    "name": "ヴァールグレイシャルハンマー",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostWall": {
+    "id": "Metadata/Items/Gems/SkillGemFrostWall",
+    "name": "フロストウォール",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFreezingPulse": {
+    "id": "Metadata/Items/Gems/SkillGemFreezingPulse",
+    "name": "フリージングパルス",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemShockNova": {
+    "id": "Metadata/Items/Gems/SkillGemShockNova",
+    "name": "ショックノヴァ",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemViperStrike": {
+    "id": "Metadata/Items/Gems/SkillGemViperStrike",
+    "name": "ヴァイパーストライク",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPhaseRun": {
+    "id": "Metadata/Items/Gems/SkillGemPhaseRun",
+    "name": "フェーズラン",
+    "primary_attribute": "dexterity",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemMeleePhysicalDamage": {
+    "id": "Metadata/Items/Gems/SupportGemMeleePhysicalDamage",
+    "name": "近接物理ダメージサポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemItemRarity": {
+    "id": "Metadata/Items/Gems/SupportGemItemRarity",
+    "name": "アイテムレアリティ上昇サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemFasterCast": {
+    "id": "Metadata/Items/Gems/SupportGemFasterCast",
+    "name": "キャストスピードサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemExplosiveArrow": {
+    "id": "Metadata/Items/Gems/SkillGemExplosiveArrow",
+    "name": "エクスプローシブアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemTemporalChains": {
+    "id": "Metadata/Items/Gems/SkillGemTemporalChains",
+    "name": "テンポラルチェーン",
+    "primary_attribute": "dexterity",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemElementalWeakness": {
+    "id": "Metadata/Items/Gems/SkillGemElementalWeakness",
+    "name": "エレメンタルウィークネス",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemWarlordsMark": {
+    "id": "Metadata/Items/Gems/SkillGemWarlordsMark",
+    "name": "Warlord's Mark",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPunishment": {
+    "id": "Metadata/Items/Gems/SkillGemPunishment",
+    "name": "パニッシュメント",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemEnfeeble": {
+    "id": "Metadata/Items/Gems/SkillGemEnfeeble",
+    "name": "エンフィーブル",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemCriticalWeakness": {
+    "id": "Metadata/Items/Gems/SkillGemCriticalWeakness",
+    "name": "Assassin's Mark",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemProjectileWeakness": {
+    "id": "Metadata/Items/Gems/SkillGemProjectileWeakness",
+    "name": "Sniper's Mark",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVulnerability": {
+    "id": "Metadata/Items/Gems/SkillGemVulnerability",
+    "name": "ディスペア",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningWarp": {
+    "id": "Metadata/Items/Gems/SkillGemLightningWarp",
+    "name": "ライトニングワープ",
+    "primary_attribute": "intelligence",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonSkeletons": {
+    "id": "Metadata/Items/Gems/SkillGemSummonSkeletons",
+    "name": "スケルトン召喚",
+    "primary_attribute": "intelligence",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalSummonSkeletons": {
+    "id": "Metadata/Items/Gems/SkillGemVaalSummonSkeletons",
+    "name": "ヴァールスケルトン召喚",
+    "primary_attribute": "intelligence",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemHeavyStrike": {
+    "id": "Metadata/Items/Gems/SkillGemHeavyStrike",
+    "name": "ヘビーストライク",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDominatingBlow": {
+    "id": "Metadata/Items/Gems/SkillGemDominatingBlow",
+    "name": "ドミネイティングブロウ",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemRainOfArrows": {
+    "id": "Metadata/Items/Gems/SkillGemRainOfArrows",
+    "name": "レインオブアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalRainOfArrows": {
+    "id": "Metadata/Items/Gems/SkillGemVaalRainOfArrows",
+    "name": "ヴァールレインオブアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemConcentratedEffect": {
+    "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+    "name": "効果濃縮サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMinionDamage": {
+    "id": "Metadata/Items/Gems/SupportGemMinionDamage",
+    "name": "ミニオンダメージサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedDuration": {
+    "id": "Metadata/Items/Gems/SupportGemIncreasedDuration",
+    "name": "持続時間上昇サポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemColdToFire": {
+    "id": "Metadata/Items/Gems/SupportGemColdToFire",
+    "name": "冷気から火変換サポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemChanceToIgnite": {
+    "id": "Metadata/Items/Gems/SupportGemChanceToIgnite",
+    "name": "燃焼促進サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMinionSpeed": {
+    "id": "Metadata/Items/Gems/SupportGemMinionSpeed",
+    "name": "ミニオンスピードサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMinionLife": {
+    "id": "Metadata/Items/Gems/SupportGemMinionLife",
+    "name": "ミニオンライフサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemWeaponElementalDamage": {
+    "id": "Metadata/Items/Gems/SupportGemWeaponElementalDamage",
+    "name": "アタック元素ダメージサポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemBloodlust": {
+    "id": "Metadata/Items/Gems/SupportGemBloodlust",
+    "name": "渇血サポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemLifeGainOnHit": {
+    "id": "Metadata/Items/Gems/SupportGemLifeGainOnHit",
+    "name": "ヒット時ライフ獲得サポート",
+    "primary_attribute": "strength",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemFirestorm": {
+    "id": "Metadata/Items/Gems/SkillGemFirestorm",
+    "name": "ファイヤーストーム",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningStrike": {
+    "id": "Metadata/Items/Gems/SkillGemLightningStrike",
+    "name": "ライトニングストライク",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalLightningStrike": {
+    "id": "Metadata/Items/Gems/SkillGemVaalLightningStrike",
+    "name": "ヴァールライトニングストライク",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemTempestShield": {
+    "id": "Metadata/Items/Gems/SkillGemTempestShield",
+    "name": "テンペストシールド",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemMoltenShell": {
+    "id": "Metadata/Items/Gems/SkillGemMoltenShell",
+    "name": "モルテンシェル",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalMoltenShell": {
+    "id": "Metadata/Items/Gems/SkillGemVaalMoltenShell",
+    "name": "ヴァールモルテンシェル",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPowerSiphon": {
+    "id": "Metadata/Items/Gems/SkillGemPowerSiphon",
+    "name": "パワーサイフォン",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalPowerSiphon": {
+    "id": "Metadata/Items/Gems/SkillGemVaalPowerSiphon",
+    "name": "ヴァールパワーサイフォン",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPuncture": {
+    "id": "Metadata/Items/Gems/SkillGemPuncture",
+    "name": "パンクチャー",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningArrow": {
+    "id": "Metadata/Items/Gems/SkillGemLightningArrow",
+    "name": "ライトニングアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemHaste": {
+    "id": "Metadata/Items/Gems/SkillGemHaste",
+    "name": "ヘイスト",
+    "primary_attribute": "dexterity",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalHaste": {
+    "id": "Metadata/Items/Gems/SkillGemVaalHaste",
+    "name": "ヴァールヘイスト",
+    "primary_attribute": "dexterity",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPurity": {
+    "id": "Metadata/Items/Gems/SkillGemPurity",
+    "name": "ピュリティオブエレメンツ",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVitality": {
+    "id": "Metadata/Items/Gems/SkillGemVitality",
+    "name": "バイタリティ",
+    "primary_attribute": "strength",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDiscipline": {
+    "id": "Metadata/Items/Gems/SkillGemDiscipline",
+    "name": "ディシプリン",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalDiscipline": {
+    "id": "Metadata/Items/Gems/SkillGemVaalDiscipline",
+    "name": "ヴァールディシプリン",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemGrace": {
+    "id": "Metadata/Items/Gems/SkillGemGrace",
+    "name": "グレース",
+    "primary_attribute": "dexterity",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalGrace": {
+    "id": "Metadata/Items/Gems/SkillGemVaalGrace",
+    "name": "ヴァールグレース",
+    "primary_attribute": "dexterity",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDetermination": {
+    "id": "Metadata/Items/Gems/SkillGemDetermination",
+    "name": "デターミネーション",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemAnger": {
+    "id": "Metadata/Items/Gems/SkillGemAnger",
+    "name": "アンガー",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemHatred": {
+    "id": "Metadata/Items/Gems/SkillGemHatred",
+    "name": "ヘイトレッド",
+    "primary_attribute": "dexterity",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemWrath": {
+    "id": "Metadata/Items/Gems/SkillGemWrath",
+    "name": "ラース",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBurningArrow": {
+    "id": "Metadata/Items/Gems/SkillGemBurningArrow",
+    "name": "バーニングアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalBurningArrow": {
+    "id": "Metadata/Items/Gems/SkillGemVaalBurningArrow",
+    "name": "ヴァールバーニングアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemElementalProliferation": {
+    "id": "Metadata/Items/Gems/SupportGemElementalProliferation",
+    "name": "元素拡散サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemBloodMagic": {
+    "id": "Metadata/Items/Gems/SupportGemBloodMagic",
+    "name": "傲慢サポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemClarity": {
+    "id": "Metadata/Items/Gems/SkillGemClarity",
+    "name": "クラリティ",
+    "primary_attribute": "intelligence",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalClarity": {
+    "id": "Metadata/Items/Gems/SkillGemVaalClarity",
+    "name": "ヴァールクラリティ",
+    "primary_attribute": "intelligence",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemCullingStrike": {
+    "id": "Metadata/Items/Gems/SupportGemCullingStrike",
+    "name": "カリングストライクサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemPointBlank": {
+    "id": "Metadata/Items/Gems/SupportGemPointBlank",
+    "name": "ポイントブランクサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemIronGrip": {
+    "id": "Metadata/Items/Gems/SupportGemIronGrip",
+    "name": "アイアングリップサポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemIronWill": {
+    "id": "Metadata/Items/Gems/SupportGemIronWill",
+    "name": "アイアンウィルサポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMeleeDamageOnFullLife": {
+    "id": "Metadata/Items/Gems/SupportGemMeleeDamageOnFullLife",
+    "name": "フルライフ時ダメージサポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellTotem": {
+    "id": "Metadata/Items/Gems/SupportGemSpellTotem",
+    "name": "スペルトーテムサポート",
+    "primary_attribute": "strength",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemRemoteMine": {
+    "id": "Metadata/Items/Gems/SupportGemRemoteMine",
+    "name": "連続爆破マインサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemDetonateMines": {
+    "id": "Metadata/Items/Gems/SkillGemDetonateMines",
+    "name": "マイン起爆",
+    "primary_attribute": "none",
+    "required_level": 8,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemShockwaveTotem": {
+    "id": "Metadata/Items/Gems/SkillGemShockwaveTotem",
+    "name": "ショックウェーブトーテム",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemRejuvenationTotem": {
+    "id": "Metadata/Items/Gems/SkillGemRejuvenationTotem",
+    "name": "リジュヴェネーショントーテム",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFreezeMine": {
+    "id": "Metadata/Items/Gems/SkillGemFreezeMine",
+    "name": "アイシクルマイン",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemConversionTrap": {
+    "id": "Metadata/Items/Gems/SkillGemConversionTrap",
+    "name": "コンヴァージョントラップ",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBearTrap": {
+    "id": "Metadata/Items/Gems/SkillGemBearTrap",
+    "name": "ベアトラップ",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemChanceToFlee": {
+    "id": "Metadata/Items/Gems/SupportGemChanceToFlee",
+    "name": "逃走付与サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemFireTrap": {
+    "id": "Metadata/Items/Gems/SkillGemFireTrap",
+    "name": "ファイヤートラップ",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDecoyTotem": {
+    "id": "Metadata/Items/Gems/SkillGemDecoyTotem",
+    "name": "デコイトーテム",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDevouringTotem": {
+    "id": "Metadata/Items/Gems/SkillGemDevouringTotem",
+    "name": "デヴァワリングトーテム",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemEtherealKnives": {
+    "id": "Metadata/Items/Gems/SkillGemEtherealKnives",
+    "name": "イシリアルナイフ",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemBlind": {
+    "id": "Metadata/Items/Gems/SupportGemBlind",
+    "name": "盲目付与サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemIceShot": {
+    "id": "Metadata/Items/Gems/SkillGemIceShot",
+    "name": "アイスショット",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemArcticBreath": {
+    "id": "Metadata/Items/Gems/SkillGemArcticBreath",
+    "name": "クリーピングフロスト",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemArc": {
+    "id": "Metadata/Items/Gems/SkillGemArc",
+    "name": "アーク",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalArc": {
+    "id": "Metadata/Items/Gems/SkillGemVaalArc",
+    "name": "ヴァールアーク",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemArcticArmour": {
+    "id": "Metadata/Items/Gems/SkillGemArcticArmour",
+    "name": "アークティックアーマー",
+    "primary_attribute": "dexterity",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalArcticArmour": {
+    "id": "Metadata/Items/Gems/SkillGemVaalArcticArmour",
+    "name": "ヴァールアークティックアーマー",
+    "primary_attribute": "dexterity",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameTotem": {
+    "id": "Metadata/Items/Gems/SkillGemFlameTotem",
+    "name": "ホーリーフレイムトーテム",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemRangedAttackTotem": {
+    "id": "Metadata/Items/Gems/SupportGemRangedAttackTotem",
+    "name": "バリスタトーテムサポート",
+    "primary_attribute": "strength",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemFirePenetration": {
+    "id": "Metadata/Items/Gems/SupportGemFirePenetration",
+    "name": "火耐性突破サポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemColdPenetration": {
+    "id": "Metadata/Items/Gems/SupportGemColdPenetration",
+    "name": "冷気耐性突破サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemLightningPenetration": {
+    "id": "Metadata/Items/Gems/SupportGemLightningPenetration",
+    "name": "雷耐性突破サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemElementalPenetration": {
+    "id": "Metadata/Items/Gems/SupportGemElementalPenetration",
+    "name": "元素耐性突破サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemChain": {
+    "id": "Metadata/Items/Gems/SupportGemChain",
+    "name": "連鎖サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemFork": {
+    "id": "Metadata/Items/Gems/SupportGemFork",
+    "name": "分岐サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemReturningProjectiles": {
+    "id": "Metadata/Items/Gems/SupportGemReturningProjectiles",
+    "name": "投射物回帰サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemFlammability": {
+    "id": "Metadata/Items/Gems/SkillGemFlammability",
+    "name": "フラマビリティ",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostbite": {
+    "id": "Metadata/Items/Gems/SkillGemFrostbite",
+    "name": "フロストバイト",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemConductivity": {
+    "id": "Metadata/Items/Gems/SkillGemConductivity",
+    "name": "コンダクティビティ",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormBurst": {
+    "id": "Metadata/Items/Gems/SkillGemStormBurst",
+    "name": "ストームバースト",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemIncinerate": {
+    "id": "Metadata/Items/Gems/SkillGemIncinerate",
+    "name": "インシネレート",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemCyclone": {
+    "id": "Metadata/Items/Gems/SkillGemCyclone",
+    "name": "サイクロン",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalCyclone": {
+    "id": "Metadata/Items/Gems/SkillGemVaalCyclone",
+    "name": "ヴァールサイクロン",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemMultistrike": {
+    "id": "Metadata/Items/Gems/SupportGemMultistrike",
+    "name": "マルチストライクサポート",
+    "primary_attribute": "strength",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMulticast": {
+    "id": "Metadata/Items/Gems/SupportGemMulticast",
+    "name": "スペルエコーサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMeleeSplash": {
+    "id": "Metadata/Items/Gems/SupportGemMeleeSplash",
+    "name": "近接スプラッシュサポート",
+    "primary_attribute": "strength",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemPowerChargeOnCrit": {
+    "id": "Metadata/Items/Gems/SupportGemPowerChargeOnCrit",
+    "name": "クリティカル時パワーチャージサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemSearingBond": {
+    "id": "Metadata/Items/Gems/SkillGemSearingBond",
+    "name": "シーリングボンド",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedBurningDamage": {
+    "id": "Metadata/Items/Gems/SupportGemIncreasedBurningDamage",
+    "name": "燃焼ダメージサポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSummonElementalResistance": {
+    "id": "Metadata/Items/Gems/SupportGemSummonElementalResistance",
+    "name": "元素の軍勢サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemCurseOnHit": {
+    "id": "Metadata/Items/Gems/SupportGemCurseOnHit",
+    "name": "ヒット時呪術サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemReave": {
+    "id": "Metadata/Items/Gems/SkillGemReave",
+    "name": "リーヴ",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalReave": {
+    "id": "Metadata/Items/Gems/SkillGemVaalReave",
+    "name": "ヴァールリーヴ",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemCastOnCrit": {
+    "id": "Metadata/Items/Gems/SupportGemCastOnCrit",
+    "name": "クリティカル時キャストサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnKill": {
+    "id": "Metadata/Items/Gems/SupportGemCastOnKill",
+    "name": "近接キル時キャストサポート",
+    "primary_attribute": "strength",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMultiTrap": {
+    "id": "Metadata/Items/Gems/SupportGemMultiTrap",
+    "name": "マルチトラップサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemAdditionalLevel": {
+    "id": "Metadata/Items/Gems/SupportGemAdditionalLevel",
+    "name": "強化サポート",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemLightningTrap": {
+    "id": "Metadata/Items/Gems/SkillGemLightningTrap",
+    "name": "ライトニングトラップ",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalLightningTrap": {
+    "id": "Metadata/Items/Gems/SkillGemVaalLightningTrap",
+    "name": "ヴァールライトニングトラップ",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSmokeMine": {
+    "id": "Metadata/Items/Gems/SkillGemSmokeMine",
+    "name": "スモークマイン",
+    "primary_attribute": "dexterity",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemEnduranceChargeOnMeleeStun": {
+    "id": "Metadata/Items/Gems/SupportGemEnduranceChargeOnMeleeStun",
+    "name": "近接スタン時エンデュランスチャージサポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemAnimateArmour": {
+    "id": "Metadata/Items/Gems/SkillGemAnimateArmour",
+    "name": "アニメイトガーディアン",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemThrownShieldProjectile": {
+    "id": "Metadata/Items/Gems/SkillGemThrownShieldProjectile",
+    "name": "スペクトラルシールドスロー",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemThrownWeapon": {
+    "id": "Metadata/Items/Gems/SkillGemThrownWeapon",
+    "name": "スペクトラルスロー",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalThrownWeapon": {
+    "id": "Metadata/Items/Gems/SkillGemVaalThrownWeapon",
+    "name": "ヴァールスペクトラルスロー",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemSlowerProjectiles": {
+    "id": "Metadata/Items/Gems/SupportGemSlowerProjectiles",
+    "name": "投射物低速化サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemReducedDuration": {
+    "id": "Metadata/Items/Gems/SupportGemReducedDuration",
+    "name": "持続時間低下サポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnDeath": {
+    "id": "Metadata/Items/Gems/SupportGemCastOnDeath",
+    "name": "死亡時キャストサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnDamageTaken": {
+    "id": "Metadata/Items/Gems/SupportGemCastOnDamageTaken",
+    "name": "被ダメージ時キャストサポート",
+    "primary_attribute": "strength",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnStunned": {
+    "id": "Metadata/Items/Gems/SupportGemCastOnStunned",
+    "name": "被スタン時キャストサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemAnimateWeapon": {
+    "id": "Metadata/Items/Gems/SkillGemAnimateWeapon",
+    "name": "アニメイトウェポン",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemAdditionalQuality": {
+    "id": "Metadata/Items/Gems/SupportGemAdditionalQuality",
+    "name": "改質サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemFireResistAura": {
+    "id": "Metadata/Items/Gems/SkillGemFireResistAura",
+    "name": "ピュリティオブファイヤー",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFireResistAura": {
+    "id": "Metadata/Items/Gems/SkillGemVaalFireResistAura",
+    "name": "ヴァールインピュリティオブファイヤー",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemColdResistAura": {
+    "id": "Metadata/Items/Gems/SkillGemColdResistAura",
+    "name": "ピュリティオブアイス",
+    "primary_attribute": "dexterity",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalColdResistAura": {
+    "id": "Metadata/Items/Gems/SkillGemVaalColdResistAura",
+    "name": "ヴァールインピュリティオブアイス",
+    "primary_attribute": "dexterity",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningResistAura": {
+    "id": "Metadata/Items/Gems/SkillGemLightningResistAura",
+    "name": "ピュリティオブライトニング",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalLightningResistAura": {
+    "id": "Metadata/Items/Gems/SkillGemVaalLightningResistAura",
+    "name": "ヴァールインピュリティオブライトニング",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormCall": {
+    "id": "Metadata/Items/Gems/SkillGemStormCall",
+    "name": "ストームコール",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalStormCall": {
+    "id": "Metadata/Items/Gems/SkillGemVaalStormCall",
+    "name": "ヴァールストームコール",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameblast": {
+    "id": "Metadata/Items/Gems/SkillGemFlameblast",
+    "name": "フレイムブラスト",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFlameblast": {
+    "id": "Metadata/Items/Gems/SkillGemVaalFlameblast",
+    "name": "ヴァールフレイムブラスト",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBarrage": {
+    "id": "Metadata/Items/Gems/SkillGemBarrage",
+    "name": "バラージ",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBallLightning": {
+    "id": "Metadata/Items/Gems/SkillGemBallLightning",
+    "name": "ボールライトニング",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemPhysicalProjectileAttackDamage": {
+    "id": "Metadata/Items/Gems/SupportGemPhysicalProjectileAttackDamage",
+    "name": "投射物強化サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemSummonRagingSpirit": {
+    "id": "Metadata/Items/Gems/SkillGemSummonRagingSpirit",
+    "name": "レイジングスピリット召喚",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameWhip": {
+    "id": "Metadata/Items/Gems/SkillGemFlameWhip",
+    "name": "フレイムサージ",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemAdditionalXP": {
+    "id": "Metadata/Items/Gems/SupportGemAdditionalXP",
+    "name": "啓発サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemDesecrate": {
+    "id": "Metadata/Items/Gems/SkillGemDesecrate",
+    "name": "デセクレート",
+    "primary_attribute": "dexterity",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFleshOffering": {
+    "id": "Metadata/Items/Gems/SkillGemFleshOffering",
+    "name": "フレッシュオファリング",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBoneOffering": {
+    "id": "Metadata/Items/Gems/SkillGemBoneOffering",
+    "name": "ボーンオファリング",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSpiritOffering": {
+    "id": "Metadata/Items/Gems/SkillGemSpiritOffering",
+    "name": "スピリットオファリング",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemGlacialCascade": {
+    "id": "Metadata/Items/Gems/SkillGemGlacialCascade",
+    "name": "グレイシャルカスケード",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemBlockChanceReduction": {
+    "id": "Metadata/Items/Gems/SupportGemBlockChanceReduction",
+    "name": "ブロック率低下サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemMoltenStrike": {
+    "id": "Metadata/Items/Gems/SkillGemMoltenStrike",
+    "name": "モルテンストライク",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemConvocation": {
+    "id": "Metadata/Items/Gems/SkillGemConvocation",
+    "name": "コンヴォケーション",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemConvocationNew": {
+    "id": "Metadata/Items/Gems/SkillGemConvocationNew",
+    "name": "コンヴォケーション",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFireNovaMine": {
+    "id": "Metadata/Items/Gems/SkillGemFireNovaMine",
+    "name": "パイロクラストマイン",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemTornadoShot": {
+    "id": "Metadata/Items/Gems/SkillGemTornadoShot",
+    "name": "トルネードショット",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemGenerosity": {
+    "id": "Metadata/Items/Gems/SupportGemGenerosity",
+    "name": "寛大サポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemHeraldOfAsh": {
+    "id": "Metadata/Items/Gems/SkillGemHeraldOfAsh",
+    "name": "ヘラルドオブアッシュ",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemHeraldOfIce": {
+    "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+    "name": "ヘラルドオブアイス",
+    "primary_attribute": "dexterity",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemHeraldOfThunder": {
+    "id": "Metadata/Items/Gems/SkillGemHeraldOfThunder",
+    "name": "ヘラルドオブサンダー",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemHeraldOfAgony": {
+    "id": "Metadata/Items/Gems/SkillGemHeraldOfAgony",
+    "name": "ヘラルドオブアゴニー",
+    "primary_attribute": "dexterity",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemHeraldOfPurity": {
+    "id": "Metadata/Items/Gems/SkillGemHeraldOfPurity",
+    "name": "ヘラルドオブピュリティ",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPoachersMark": {
+    "id": "Metadata/Items/Gems/SkillGemPoachersMark",
+    "name": "ポーチャーの呪印",
+    "primary_attribute": "dexterity",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningTendrils": {
+    "id": "Metadata/Items/Gems/SkillGemLightningTendrils",
+    "name": "ライトニングテンドリル",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemKineticBlast": {
+    "id": "Metadata/Items/Gems/SkillGemKineticBlast",
+    "name": "キネティックブラスト",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlinkArrow": {
+    "id": "Metadata/Items/Gems/SkillGemBlinkArrow",
+    "name": "ブリンクアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemMirrorArrow": {
+    "id": "Metadata/Items/Gems/SkillGemMirrorArrow",
+    "name": "ミラーアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemRiposte": {
+    "id": "Metadata/Items/Gems/SkillGemRiposte",
+    "name": "グレイシャルシールドスワイプ",
+    "primary_attribute": "dexterity",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemReckoning": {
+    "id": "Metadata/Items/Gems/SkillGemReckoning",
+    "name": "ソードストーム",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemEviscerate": {
+    "id": "Metadata/Items/Gems/SkillGemEviscerate",
+    "name": "イヴィセレイト",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemStaticStrike": {
+    "id": "Metadata/Items/Gems/SkillGemStaticStrike",
+    "name": "スタティックストライク",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemPhysicalToLightning": {
+    "id": "Metadata/Items/Gems/SupportGemPhysicalToLightning",
+    "name": "物理から雷変換サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemVengeance": {
+    "id": "Metadata/Items/Gems/SkillGemVengeance",
+    "name": "クラッシングフィスト",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDivineRetribution": {
+    "id": "Metadata/Items/Gems/SkillGemDivineRetribution",
+    "name": "ディヴァインリトリビューション",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVengefulCry": {
+    "id": "Metadata/Items/Gems/SkillGemVengefulCry",
+    "name": "ヴェンジフルクライ",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonChaosGolem": {
+    "id": "Metadata/Items/Gems/SkillGemSummonChaosGolem",
+    "name": "カオスゴーレム召喚",
+    "primary_attribute": "intelligence",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonIceGolem": {
+    "id": "Metadata/Items/Gems/SkillGemSummonIceGolem",
+    "name": "アイスゴーレム召喚",
+    "primary_attribute": "dexterity",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonFlameGolem": {
+    "id": "Metadata/Items/Gems/SkillGemSummonFlameGolem",
+    "name": "フレイムゴーレム召喚",
+    "primary_attribute": "strength",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonLightningGolem": {
+    "id": "Metadata/Items/Gems/SkillGemSummonLightningGolem",
+    "name": "ライトニングゴーレム召喚",
+    "primary_attribute": "intelligence",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemBlasphemy": {
+    "id": "Metadata/Items/Gems/SupportGemBlasphemy",
+    "name": "冒涜サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemIceCrash": {
+    "id": "Metadata/Items/Gems/SkillGemIceCrash",
+    "name": "アイスクラッシュ",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemRallyingCry": {
+    "id": "Metadata/Items/Gems/SkillGemRallyingCry",
+    "name": "ラリイングクライ",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemAbyssalCry": {
+    "id": "Metadata/Items/Gems/SkillGemAbyssalCry",
+    "name": "インファーナルクライ",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameDash": {
+    "id": "Metadata/Items/Gems/SkillGemFlameDash",
+    "name": "フレイムダッシュ",
+    "primary_attribute": "intelligence",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVigilantStrike": {
+    "id": "Metadata/Items/Gems/SkillGemVigilantStrike",
+    "name": "ヴィジラントストライク",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemFortify": {
+    "id": "Metadata/Items/Gems/SupportGemFortify",
+    "name": "堅牢化サポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemFrostBlades": {
+    "id": "Metadata/Items/Gems/SkillGemFrostBlades",
+    "name": "フロストブレード",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemFrenzyChargeOnSlayingFrozenEnemy": {
+    "id": "Metadata/Items/Gems/SupportGemFrenzyChargeOnSlayingFrozenEnemy",
+    "name": "氷傷サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemDamageAgainstChilled": {
+    "id": "Metadata/Items/Gems/SupportGemDamageAgainstChilled",
+    "name": "低体温化サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemOnslaughtOnSlayingShockedEnemy": {
+    "id": "Metadata/Items/Gems/SupportGemOnslaughtOnSlayingShockedEnemy",
+    "name": "電気刺激サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemMagmaOrb": {
+    "id": "Metadata/Items/Gems/SkillGemMagmaOrb",
+    "name": "ローリングマグマ",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemTrapAndMineDamage": {
+    "id": "Metadata/Items/Gems/SupportGemTrapAndMineDamage",
+    "name": "トラップ・マインダメージサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemWildStrike": {
+    "id": "Metadata/Items/Gems/SkillGemWildStrike",
+    "name": "ワイルドストライク",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceTrap": {
+    "id": "Metadata/Items/Gems/SkillGemIceTrap",
+    "name": "アイストラップ",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlastRain": {
+    "id": "Metadata/Items/Gems/SkillGemBlastRain",
+    "name": "ブラストレイン",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemShrapnelShot": {
+    "id": "Metadata/Items/Gems/SkillGemShrapnelShot",
+    "name": "ガルヴァニックアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladefall": {
+    "id": "Metadata/Items/Gems/SkillGemBladefall",
+    "name": "ブレードフォール",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladeVortex": {
+    "id": "Metadata/Items/Gems/SkillGemBladeVortex",
+    "name": "ブレードヴォーテックス",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalBladeVortex": {
+    "id": "Metadata/Items/Gems/SkillGemVaalBladeVortex",
+    "name": "ヴァールブレードヴォーテックス",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostBomb": {
+    "id": "Metadata/Items/Gems/SkillGemFrostBomb",
+    "name": "フロストボム",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSiegeBallista": {
+    "id": "Metadata/Items/Gems/SkillGemSiegeBallista",
+    "name": "シージバリスタ",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemOrbOfStorms": {
+    "id": "Metadata/Items/Gems/SkillGemOrbOfStorms",
+    "name": "オーブオブストーム",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonRockGolem": {
+    "id": "Metadata/Items/Gems/SkillGemSummonRockGolem",
+    "name": "ストーンゴーレム召喚",
+    "primary_attribute": "strength",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemEarthquake": {
+    "id": "Metadata/Items/Gems/SkillGemEarthquake",
+    "name": "アースクエイク",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemPoison": {
+    "id": "Metadata/Items/Gems/SupportGemPoison",
+    "name": "クリティカルアフリクションサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemContagion": {
+    "id": "Metadata/Items/Gems/SkillGemContagion",
+    "name": "コンテージョン",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemWither": {
+    "id": "Metadata/Items/Gems/SkillGemWither",
+    "name": "ウィザー",
+    "primary_attribute": "intelligence",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlight": {
+    "id": "Metadata/Items/Gems/SkillGemBlight",
+    "name": "ブライト",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemEssenceDrain": {
+    "id": "Metadata/Items/Gems/SkillGemEssenceDrain",
+    "name": "エッセンスドレイン",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemVoidManipulation": {
+    "id": "Metadata/Items/Gems/SupportGemVoidManipulation",
+    "name": "虚空制御サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemControlledDestruction": {
+    "id": "Metadata/Items/Gems/SupportGemControlledDestruction",
+    "name": "制御破壊サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemRapidDecay": {
+    "id": "Metadata/Items/Gems/SupportGemRapidDecay",
+    "name": "スウィフトアフリクションサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemClusterTrap": {
+    "id": "Metadata/Items/Gems/SupportGemClusterTrap",
+    "name": "クラスタートラップサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemSunder": {
+    "id": "Metadata/Items/Gems/SkillGemSunder",
+    "name": "サンダー",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostBolt": {
+    "id": "Metadata/Items/Gems/SkillGemFrostBolt",
+    "name": "フロストボルト",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostBoltNova": {
+    "id": "Metadata/Items/Gems/SkillGemFrostBoltNova",
+    "name": "ヴォーテックス",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemElementalFocus": {
+    "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+    "name": "元素ダメージ集中サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMinefield": {
+    "id": "Metadata/Items/Gems/SupportGemMinefield",
+    "name": "マインフィールドサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemTrapCooldown": {
+    "id": "Metadata/Items/Gems/SupportGemTrapCooldown",
+    "name": "トラップ改良サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemDarkPact": {
+    "id": "Metadata/Items/Gems/SkillGemDarkPact",
+    "name": "ダークパクト",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFireBeam": {
+    "id": "Metadata/Items/Gems/SkillGemFireBeam",
+    "name": "スコーチングレイ",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemCastWhileChannelling": {
+    "id": "Metadata/Items/Gems/SupportGemCastWhileChannelling",
+    "name": "チャネリング中キャストサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemIgniteProliferation": {
+    "id": "Metadata/Items/Gems/SupportGemIgniteProliferation",
+    "name": "発火拡散サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemChanceToBleed": {
+    "id": "Metadata/Items/Gems/SupportGemChanceToBleed",
+    "name": "出血付与サポート",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemLesserPoison": {
+    "id": "Metadata/Items/Gems/SupportGemLesserPoison",
+    "name": "毒付与サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemDeadlyAilments": {
+    "id": "Metadata/Items/Gems/SupportGemDeadlyAilments",
+    "name": "状態異常特化サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemDecay": {
+    "id": "Metadata/Items/Gems/SupportGemDecay",
+    "name": "ディケイサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemEfficacy": {
+    "id": "Metadata/Items/Gems/SupportGemEfficacy",
+    "name": "効果増大サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemVileToxins": {
+    "id": "Metadata/Items/Gems/SupportGemVileToxins",
+    "name": "猛毒サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMaim": {
+    "id": "Metadata/Items/Gems/SupportGemMaim",
+    "name": "重傷サポート",
+    "primary_attribute": "strength",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemImmolate": {
+    "id": "Metadata/Items/Gems/SupportGemImmolate",
+    "name": "火刑サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemUnboundAilments": {
+    "id": "Metadata/Items/Gems/SupportGemUnboundAilments",
+    "name": "状態異常解放サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemBrutality": {
+    "id": "Metadata/Items/Gems/SupportGemBrutality",
+    "name": "ブルータリティサポート",
+    "primary_attribute": "strength",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemRuthless": {
+    "id": "Metadata/Items/Gems/SupportGemRuthless",
+    "name": "ルースレスサポート",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemOnslaught": {
+    "id": "Metadata/Items/Gems/SupportGemOnslaught",
+    "name": "モーメンタムサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemArcaneSurge": {
+    "id": "Metadata/Items/Gems/SupportGemArcaneSurge",
+    "name": "アーケインサージサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemCorpseEruption": {
+    "id": "Metadata/Items/Gems/SkillGemCorpseEruption",
+    "name": "クリメーション",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemCorpseWarp": {
+    "id": "Metadata/Items/Gems/SkillGemCorpseWarp",
+    "name": "ボディスワップ",
+    "primary_attribute": "intelligence",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemTectonicSlam": {
+    "id": "Metadata/Items/Gems/SkillGemTectonicSlam",
+    "name": "テクトニックスラム",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemStormBarrier": {
+    "id": "Metadata/Items/Gems/SupportGemStormBarrier",
+    "name": "チャネリング注入サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemParallelProjectiles": {
+    "id": "Metadata/Items/Gems/SupportGemParallelProjectiles",
+    "name": "斉射サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellCascade": {
+    "id": "Metadata/Items/Gems/SupportGemSpellCascade",
+    "name": "スペルカスケードサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpiritStrike": {
+    "id": "Metadata/Items/Gems/SupportGemSpiritStrike",
+    "name": "アンセストラルコールサポート",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSummonGhostOnKill": {
+    "id": "Metadata/Items/Gems/SupportGemSummonGhostOnKill",
+    "name": "ファンタズム召喚サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMirageArcher": {
+    "id": "Metadata/Items/Gems/SupportGemMirageArcher",
+    "name": "ミラージュアーチャーサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemNewVulnerability": {
+    "id": "Metadata/Items/Gems/SkillGemNewVulnerability",
+    "name": "ヴァルネラビリティ",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemShrapnelTrap": {
+    "id": "Metadata/Items/Gems/SkillGemShrapnelTrap",
+    "name": "エクスプローシブトラップ",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceSiphonTrap": {
+    "id": "Metadata/Items/Gems/SkillGemIceSiphonTrap",
+    "name": "サイフォニングトラップ",
+    "primary_attribute": "intelligence",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlamethrowerTrap": {
+    "id": "Metadata/Items/Gems/SkillGemFlamethrowerTrap",
+    "name": "フレームスローワートラップ",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningTowerTrap": {
+    "id": "Metadata/Items/Gems/SkillGemLightningTowerTrap",
+    "name": "ライトニングスパイアトラップ",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPhysCascadeTrap": {
+    "id": "Metadata/Items/Gems/SkillGemPhysCascadeTrap",
+    "name": "サイズミックトラップ",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalEarthquake": {
+    "id": "Metadata/Items/Gems/SkillGemVaalEarthquake",
+    "name": "ヴァールアースクエイク",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalBlight": {
+    "id": "Metadata/Items/Gems/SkillGemVaalBlight",
+    "name": "ヴァールブライト",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemFrenzyPowerOnTrapTrigger": {
+    "id": "Metadata/Items/Gems/SupportGemFrenzyPowerOnTrapTrigger",
+    "name": "チャージドトラップサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemChargedMines": {
+    "id": "Metadata/Items/Gems/SupportGemChargedMines",
+    "name": "チャージドマインサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemConsecratedPath": {
+    "id": "Metadata/Items/Gems/SkillGemConsecratedPath",
+    "name": "コンセクレイテッドパス",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSmite": {
+    "id": "Metadata/Items/Gems/SkillGemSmite",
+    "name": "スマイト",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemScourgeArrow": {
+    "id": "Metadata/Items/Gems/SkillGemScourgeArrow",
+    "name": "スカージアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemToxicRain": {
+    "id": "Metadata/Items/Gems/SkillGemToxicRain",
+    "name": "トキシックレイン",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonRelic": {
+    "id": "Metadata/Items/Gems/SkillGemSummonRelic",
+    "name": "ホーリーレリック召喚",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemChaosAttacks": {
+    "id": "Metadata/Items/Gems/SupportGemChaosAttacks",
+    "name": "ヒット時衰弱サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemBonechill": {
+    "id": "Metadata/Items/Gems/SupportGemBonechill",
+    "name": "酷寒サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemWinterOrb": {
+    "id": "Metadata/Items/Gems/SkillGemWinterOrb",
+    "name": "ウィンターオーブ",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemRendingSteel": {
+    "id": "Metadata/Items/Gems/SkillGemRendingSteel",
+    "name": "レンディングスティール",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemLancingSteel": {
+    "id": "Metadata/Items/Gems/SkillGemLancingSteel",
+    "name": "ランシングスティール",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormBrand": {
+    "id": "Metadata/Items/Gems/SkillGemStormBrand",
+    "name": "ストームブランド",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemWarBanner": {
+    "id": "Metadata/Items/Gems/SkillGemWarBanner",
+    "name": "ウォーバナー",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDreadBanner": {
+    "id": "Metadata/Items/Gems/SkillGemDreadBanner",
+    "name": "ドレッドバナー",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemShatteringSteel": {
+    "id": "Metadata/Items/Gems/SkillGemShatteringSteel",
+    "name": "シャタリングスティール",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemMultiTotem": {
+    "id": "Metadata/Items/Gems/SupportGemMultiTotem",
+    "name": "マルチトーテムサポート",
+    "primary_attribute": "strength",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemArmageddonBrand": {
+    "id": "Metadata/Items/Gems/SkillGemArmageddonBrand",
+    "name": "アルマゲドンブランド",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemRecallBrands": {
+    "id": "Metadata/Items/Gems/SkillGemRecallBrands",
+    "name": "ブランドリコール",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSanctify": {
+    "id": "Metadata/Items/Gems/SkillGemSanctify",
+    "name": "ピュリファイングフレイム",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSoulrend": {
+    "id": "Metadata/Items/Gems/SkillGemSoulrend",
+    "name": "ソウルレンド",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDarkRitual": {
+    "id": "Metadata/Items/Gems/SkillGemDarkRitual",
+    "name": "ベイン",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemEnergyShieldLeech": {
+    "id": "Metadata/Items/Gems/SupportGemEnergyShieldLeech",
+    "name": "エナジーリーチサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemPurge": {
+    "id": "Metadata/Items/Gems/SkillGemPurge",
+    "name": "ウェーブオブコンヴィクション",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSpellDamageAura": {
+    "id": "Metadata/Items/Gems/SkillGemSpellDamageAura",
+    "name": "ゼロトリー",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDivineTempest": {
+    "id": "Metadata/Items/Gems/SkillGemDivineTempest",
+    "name": "ディヴァインアイア",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDamageOverTimeAura": {
+    "id": "Metadata/Items/Gems/SkillGemDamageOverTimeAura",
+    "name": "マレヴォレンス",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemHandcastSpellBoost": {
+    "id": "Metadata/Items/Gems/SupportGemHandcastSpellBoost",
+    "name": "インテンシファイサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemHandcastAnticipation": {
+    "id": "Metadata/Items/Gems/SupportGemHandcastAnticipation",
+    "name": "解放サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemSteelskin": {
+    "id": "Metadata/Items/Gems/SkillGemSteelskin",
+    "name": "スティールスキン",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDash": {
+    "id": "Metadata/Items/Gems/SkillGemDash",
+    "name": "ダッシュ",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladestorm": {
+    "id": "Metadata/Items/Gems/SkillGemBladestorm",
+    "name": "ブレードストーム",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBloodAndSand": {
+    "id": "Metadata/Items/Gems/SkillGemBloodAndSand",
+    "name": "ブラッドアンドサンド",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBerserk": {
+    "id": "Metadata/Items/Gems/SkillGemBerserk",
+    "name": "狂化した",
+    "primary_attribute": "strength",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPerforate": {
+    "id": "Metadata/Items/Gems/SkillGemPerforate",
+    "name": "パーフォレイト",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemChainHook": {
+    "id": "Metadata/Items/Gems/SkillGemChainHook",
+    "name": "チェーンフック",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemCloseCombat": {
+    "id": "Metadata/Items/Gems/SupportGemCloseCombat",
+    "name": "近距離戦闘サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemShockwave": {
+    "id": "Metadata/Items/Gems/SupportGemShockwave",
+    "name": "ショックウェーブサポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemFrostblink": {
+    "id": "Metadata/Items/Gems/SkillGemFrostblink",
+    "name": "フロストブリンク",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPrecision": {
+    "id": "Metadata/Items/Gems/SkillGemPrecision",
+    "name": "正確さ",
+    "primary_attribute": "dexterity",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFleshAndStone": {
+    "id": "Metadata/Items/Gems/SkillGemFleshAndStone",
+    "name": "フレッシュアンドストーン",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemImpale": {
+    "id": "Metadata/Items/Gems/SupportGemImpale",
+    "name": "串刺しサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemPride": {
+    "id": "Metadata/Items/Gems/SkillGemPride",
+    "name": "プライド",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemPulverise": {
+    "id": "Metadata/Items/Gems/SupportGemPulverise",
+    "name": "強打サポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemRage": {
+    "id": "Metadata/Items/Gems/SupportGemRage",
+    "name": "憤怒サポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemCobraLash": {
+    "id": "Metadata/Items/Gems/SkillGemCobraLash",
+    "name": "コブララッシュ",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonCarrionGolem": {
+    "id": "Metadata/Items/Gems/SkillGemSummonCarrionGolem",
+    "name": "キャリオンゴーレム召喚",
+    "primary_attribute": "intelligence",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemWitheringStep": {
+    "id": "Metadata/Items/Gems/SkillGemWitheringStep",
+    "name": "ウィザリングステップ",
+    "primary_attribute": "dexterity",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPlagueBearer": {
+    "id": "Metadata/Items/Gems/SkillGemPlagueBearer",
+    "name": "プレイグベアラー",
+    "primary_attribute": "dexterity",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemFeedingFrenzy": {
+    "id": "Metadata/Items/Gems/SupportGemFeedingFrenzy",
+    "name": "暴食サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemDeathmark": {
+    "id": "Metadata/Items/Gems/SupportGemDeathmark",
+    "name": "捕食者サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemNightblade": {
+    "id": "Metadata/Items/Gems/SupportGemNightblade",
+    "name": "夜刃サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMeatShield": {
+    "id": "Metadata/Items/Gems/SupportGemMeatShield",
+    "name": "肉の壁サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemStormblastMine": {
+    "id": "Metadata/Items/Gems/SkillGemStormblastMine",
+    "name": "ストームブラストマイン",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonSkitterbots": {
+    "id": "Metadata/Items/Gems/SkillGemSummonSkitterbots",
+    "name": "スキッターボット召喚",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemHighImpactMineSupport": {
+    "id": "Metadata/Items/Gems/SupportGemHighImpactMineSupport",
+    "name": "衝撃強化マインサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemInfernalLegion": {
+    "id": "Metadata/Items/Gems/SupportGemInfernalLegion",
+    "name": "インファーナルリージョンサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemPestilentStrike": {
+    "id": "Metadata/Items/Gems/SkillGemPestilentStrike",
+    "name": "ペスティレントストライク",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVenomGyre": {
+    "id": "Metadata/Items/Gems/SkillGemVenomGyre",
+    "name": "ヴェノムジャイア",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemSwiftAssembly": {
+    "id": "Metadata/Items/Gems/SupportGemSwiftAssembly",
+    "name": "高速組立サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemShrapnelBallista": {
+    "id": "Metadata/Items/Gems/SkillGemShrapnelBallista",
+    "name": "シュラプネルバリスタ",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemArrowNova": {
+    "id": "Metadata/Items/Gems/SupportGemArrowNova",
+    "name": "アローノヴァサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemBarrage": {
+    "id": "Metadata/Items/Gems/SupportGemBarrage",
+    "name": "連射サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemEnsnaringArrow": {
+    "id": "Metadata/Items/Gems/SkillGemEnsnaringArrow",
+    "name": "エンスネアリングアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemArtilleryBallista": {
+    "id": "Metadata/Items/Gems/SkillGemArtilleryBallista",
+    "name": "アーティラリーバリスタ",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemGreaterVolley": {
+    "id": "Metadata/Items/Gems/SupportGemGreaterVolley",
+    "name": "斉射（大）サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedFireDamagePlus": {
+    "id": "Metadata/Items/Gems/SupportGemAddedFireDamagePlus",
+    "name": "覚醒の火ダメージ追加サポート",
+    "primary_attribute": "strength",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemAncestralCallPlus": {
+    "id": "Metadata/Items/Gems/SupportGemAncestralCallPlus",
+    "name": "覚醒のアンセストラルコールサポート",
+    "primary_attribute": "strength",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemBrutalityPlus": {
+    "id": "Metadata/Items/Gems/SupportGemBrutalityPlus",
+    "name": "覚醒のブルータリティサポート",
+    "primary_attribute": "strength",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemBurningDamagePlus": {
+    "id": "Metadata/Items/Gems/SupportGemBurningDamagePlus",
+    "name": "覚醒の燃焼ダメージサポート",
+    "primary_attribute": "strength",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemWeaponElementalDamagePlus": {
+    "id": "Metadata/Items/Gems/SupportGemWeaponElementalDamagePlus",
+    "name": "覚醒のアタック元素ダメージサポート",
+    "primary_attribute": "strength",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemFirePenetrationPlus": {
+    "id": "Metadata/Items/Gems/SupportGemFirePenetrationPlus",
+    "name": "覚醒の火耐性突破サポート",
+    "primary_attribute": "strength",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemGenerosityPlus": {
+    "id": "Metadata/Items/Gems/SupportGemGenerosityPlus",
+    "name": "覚醒の寛大サポート",
+    "primary_attribute": "strength",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMeleePhysicalDamagePlus": {
+    "id": "Metadata/Items/Gems/SupportGemMeleePhysicalDamagePlus",
+    "name": "覚醒の近接物理ダメージサポート",
+    "primary_attribute": "strength",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMeleeSplashPlus": {
+    "id": "Metadata/Items/Gems/SupportGemMeleeSplashPlus",
+    "name": "覚醒の近接スプラッシュサポート",
+    "primary_attribute": "strength",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMultistrikePlus": {
+    "id": "Metadata/Items/Gems/SupportGemMultistrikePlus",
+    "name": "覚醒のマルチストライクサポート",
+    "primary_attribute": "strength",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedColdDamagePlus": {
+    "id": "Metadata/Items/Gems/SupportGemAddedColdDamagePlus",
+    "name": "覚醒の冷気ダメージ追加サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemArrowNovaPlus": {
+    "id": "Metadata/Items/Gems/SupportGemArrowNovaPlus",
+    "name": "覚醒のアローノヴァサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnCritPlus": {
+    "id": "Metadata/Items/Gems/SupportGemCastOnCritPlus",
+    "name": "覚醒のクリティカル時キャストサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemChainPlus": {
+    "id": "Metadata/Items/Gems/SupportGemChainPlus",
+    "name": "覚醒の連鎖サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemColdPenetrationPlus": {
+    "id": "Metadata/Items/Gems/SupportGemColdPenetrationPlus",
+    "name": "覚醒の冷気耐性突破サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemDeadlyAilmentsPlus": {
+    "id": "Metadata/Items/Gems/SupportGemDeadlyAilmentsPlus",
+    "name": "覚醒の状態異常特化サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemForkPlus": {
+    "id": "Metadata/Items/Gems/SupportGemForkPlus",
+    "name": "覚醒の分岐サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterMultipleProjectilesPlus": {
+    "id": "Metadata/Items/Gems/SupportGemGreaterMultipleProjectilesPlus",
+    "name": "覚醒の投射物追加（大）サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSwiftAfflictionPlus": {
+    "id": "Metadata/Items/Gems/SupportGemSwiftAfflictionPlus",
+    "name": "覚醒のスウィフトアフリクションサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemVoidManipulationPlus": {
+    "id": "Metadata/Items/Gems/SupportGemVoidManipulationPlus",
+    "name": "覚醒の虚空制御サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemViciousProjectilesPlus": {
+    "id": "Metadata/Items/Gems/SupportGemViciousProjectilesPlus",
+    "name": "覚醒の投射物強化サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedChaosDamagePlus": {
+    "id": "Metadata/Items/Gems/SupportGemAddedChaosDamagePlus",
+    "name": "覚醒の混沌ダメージ追加サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedLightningDamagePlus": {
+    "id": "Metadata/Items/Gems/SupportGemAddedLightningDamagePlus",
+    "name": "覚醒の雷ダメージ追加サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemBlasphemyPlus": {
+    "id": "Metadata/Items/Gems/SupportGemBlasphemyPlus",
+    "name": "覚醒の冒涜サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastWhileChannellingPlus": {
+    "id": "Metadata/Items/Gems/SupportGemCastWhileChannellingPlus",
+    "name": "覚醒のチャネリング中キャストサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemControlledDestructionPlus": {
+    "id": "Metadata/Items/Gems/SupportGemControlledDestructionPlus",
+    "name": "覚醒の制御破壊サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemCurseOnHitPlus": {
+    "id": "Metadata/Items/Gems/SupportGemCurseOnHitPlus",
+    "name": "覚醒のヒット時呪術サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemElementalFocusPlus": {
+    "id": "Metadata/Items/Gems/SupportGemElementalFocusPlus",
+    "name": "覚醒の元素ダメージ集中サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffectPlus": {
+    "id": "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffectPlus",
+    "name": "覚醒の効果範囲増加サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemLightningPenetrationPlus": {
+    "id": "Metadata/Items/Gems/SupportGemLightningPenetrationPlus",
+    "name": "覚醒の雷耐性突破サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMinionDamagePlus": {
+    "id": "Metadata/Items/Gems/SupportGemMinionDamagePlus",
+    "name": "覚醒のミニオンダメージサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellCascadePlus": {
+    "id": "Metadata/Items/Gems/SupportGemSpellCascadePlus",
+    "name": "覚醒のスペルカスケードサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellEchoPlus": {
+    "id": "Metadata/Items/Gems/SupportGemSpellEchoPlus",
+    "name": "覚醒のスペルエコーサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemUnboundAilmentsPlus": {
+    "id": "Metadata/Items/Gems/SupportGemUnboundAilmentsPlus",
+    "name": "覚醒の状態異常解放サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemUnleashPlus": {
+    "id": "Metadata/Items/Gems/SupportGemUnleashPlus",
+    "name": "覚醒の解放サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemEmpowerPlus": {
+    "id": "Metadata/Items/Gems/SupportGemEmpowerPlus",
+    "name": "覚醒の強化サポート",
+    "primary_attribute": "strength",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemEnlightenPlus": {
+    "id": "Metadata/Items/Gems/SupportGemEnlightenPlus",
+    "name": "覚醒の啓発サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemEnhancePlus": {
+    "id": "Metadata/Items/Gems/SupportGemEnhancePlus",
+    "name": "覚醒の改質サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 72,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemArcaneCloak": {
+    "id": "Metadata/Items/Gems/SkillGemArcaneCloak",
+    "name": "アーケインクローク",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormBind": {
+    "id": "Metadata/Items/Gems/SkillGemStormBind",
+    "name": "ストームバインド",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemKineticBolt": {
+    "id": "Metadata/Items/Gems/SkillGemKineticBolt",
+    "name": "キネティックボルト",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladeBlast": {
+    "id": "Metadata/Items/Gems/SkillGemBladeBlast",
+    "name": "ブレードブラスト",
+    "primary_attribute": "dexterity",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSpellslinger": {
+    "id": "Metadata/Items/Gems/SkillGemSpellslinger",
+    "name": "スペルスリンガー",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemArchmage": {
+    "id": "Metadata/Items/Gems/SupportGemArchmage",
+    "name": "アーチメイジサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSecondWind": {
+    "id": "Metadata/Items/Gems/SupportGemSecondWind",
+    "name": "セカンドウィンドサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemArcanistBrand": {
+    "id": "Metadata/Items/Gems/SkillGemArcanistBrand",
+    "name": "アルカニストブランド",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemIntimidatingCry": {
+    "id": "Metadata/Items/Gems/SkillGemIntimidatingCry",
+    "name": "インティミデーティングクライ",
+    "primary_attribute": "strength",
+    "required_level": 10,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSeismicCry": {
+    "id": "Metadata/Items/Gems/SkillGemSeismicCry",
+    "name": "サイズミッククライ",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemAncestralCry": {
+    "id": "Metadata/Items/Gems/SkillGemAncestralCry",
+    "name": "アンセストラルクライ",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPenanceBrand": {
+    "id": "Metadata/Items/Gems/SkillGemPenanceBrand",
+    "name": "ペナンスブランド",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemWintertideBrand": {
+    "id": "Metadata/Items/Gems/SkillGemWintertideBrand",
+    "name": "ウィンタータイドブランド",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemEarthshatter": {
+    "id": "Metadata/Items/Gems/SkillGemEarthshatter",
+    "name": "アースシャッター",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemGeneralsCry": {
+    "id": "Metadata/Items/Gems/SkillGemGeneralsCry",
+    "name": "General's Cry",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemFistOfWar": {
+    "id": "Metadata/Items/Gems/SupportGemFistOfWar",
+    "name": "フィストオブウォーサポート",
+    "primary_attribute": "strength",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSwiftbrand": {
+    "id": "Metadata/Items/Gems/SupportGemSwiftbrand",
+    "name": "スウィフトブランドサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemUrgentOrders": {
+    "id": "Metadata/Items/Gems/SupportGemUrgentOrders",
+    "name": "アージェントオーダーサポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemBlazingSalvo": {
+    "id": "Metadata/Items/Gems/SkillGemBlazingSalvo",
+    "name": "ブレイジングサルヴォ",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVoidSphere": {
+    "id": "Metadata/Items/Gems/SkillGemVoidSphere",
+    "name": "ヴォイドスフィア",
+    "primary_attribute": "intelligence",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemCracklingLance": {
+    "id": "Metadata/Items/Gems/SkillGemCracklingLance",
+    "name": "クラックリングランス",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostShield": {
+    "id": "Metadata/Items/Gems/SkillGemFrostShield",
+    "name": "フロストシールド",
+    "primary_attribute": "intelligence",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSplittingSteel": {
+    "id": "Metadata/Items/Gems/SkillGemSplittingSteel",
+    "name": "スプリッティングスティール",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSigilOfPower": {
+    "id": "Metadata/Items/Gems/SkillGemSigilOfPower",
+    "name": "シギルオブパワー",
+    "primary_attribute": "intelligence",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameWall": {
+    "id": "Metadata/Items/Gems/SkillGemFlameWall",
+    "name": "フレイムウォール",
+    "primary_attribute": "intelligence",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemImpendingDoom": {
+    "id": "Metadata/Items/Gems/SupportGemImpendingDoom",
+    "name": "インペンディングドゥームサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemHexblast": {
+    "id": "Metadata/Items/Gems/SkillGemHexblast",
+    "name": "ヘックスブラスト",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemPinpoint": {
+    "id": "Metadata/Items/Gems/SupportGemPinpoint",
+    "name": "ピンポイントサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemHydrosphere": {
+    "id": "Metadata/Items/Gems/SkillGemHydrosphere",
+    "name": "ハイドロスフィア",
+    "primary_attribute": "intelligence",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemTrinity": {
+    "id": "Metadata/Items/Gems/SupportGemTrinity",
+    "name": "トリニティサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemExsanguinate": {
+    "id": "Metadata/Items/Gems/SkillGemExsanguinate",
+    "name": "イグザングイネイト",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemCorruptingFever": {
+    "id": "Metadata/Items/Gems/SkillGemCorruptingFever",
+    "name": "コラプティングフィーバー",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemBloodthirst": {
+    "id": "Metadata/Items/Gems/SupportGemBloodthirst",
+    "name": "飢血サポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemBloodreap": {
+    "id": "Metadata/Items/Gems/SkillGemBloodreap",
+    "name": "リープ",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPetrifiedBlood": {
+    "id": "Metadata/Items/Gems/SkillGemPetrifiedBlood",
+    "name": "ペトリファイドブラッド",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemCruelty": {
+    "id": "Metadata/Items/Gems/SupportGemCruelty",
+    "name": "クルーエルティサポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemLifetap": {
+    "id": "Metadata/Items/Gems/SupportGemLifetap",
+    "name": "ライフタップサポート",
+    "primary_attribute": "strength",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemDefianceBanner": {
+    "id": "Metadata/Items/Gems/SkillGemDefianceBanner",
+    "name": "ディファイアンスバナー",
+    "primary_attribute": "strength",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVoltaxicBurst": {
+    "id": "Metadata/Items/Gems/SkillGemVoltaxicBurst",
+    "name": "ボルタキシックバースト",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemRageVortex": {
+    "id": "Metadata/Items/Gems/SkillGemRageVortex",
+    "name": "レイジヴォーテックス",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSpectralHelix": {
+    "id": "Metadata/Items/Gems/SkillGemSpectralHelix",
+    "name": "スペクトラルヘリックス",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBattlemagesCry": {
+    "id": "Metadata/Items/Gems/SkillGemBattlemagesCry",
+    "name": "Battlemage's Cry",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemAbsolution": {
+    "id": "Metadata/Items/Gems/SkillGemAbsolution",
+    "name": "アブソルーション",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemForbiddenRite": {
+    "id": "Metadata/Items/Gems/SkillGemForbiddenRite",
+    "name": "フォビドゥンライト",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemAmbush": {
+    "id": "Metadata/Items/Gems/SkillGemAmbush",
+    "name": "アンブッシュ",
+    "primary_attribute": "dexterity",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemManabond": {
+    "id": "Metadata/Items/Gems/SkillGemManabond",
+    "name": "マナボンド",
+    "primary_attribute": "intelligence",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladeTrap": {
+    "id": "Metadata/Items/Gems/SkillGemBladeTrap",
+    "name": "ブレードトラップ",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormRain": {
+    "id": "Metadata/Items/Gems/SkillGemStormRain",
+    "name": "ストームレイン",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemShieldCrush": {
+    "id": "Metadata/Items/Gems/SkillGemShieldCrush",
+    "name": "シールドクラッシュ",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemFocusedBallista": {
+    "id": "Metadata/Items/Gems/SupportGemFocusedBallista",
+    "name": "フォーカスバリスタサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemSummonReaper": {
+    "id": "Metadata/Items/Gems/SkillGemSummonReaper",
+    "name": "リーパー召喚",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemBehead": {
+    "id": "Metadata/Items/Gems/SupportGemBehead",
+    "name": "斬首サポート",
+    "primary_attribute": "strength",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemBoneshatter": {
+    "id": "Metadata/Items/Gems/SkillGemBoneshatter",
+    "name": "ボーンシャッター",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemExplosiveConcoction": {
+    "id": "Metadata/Items/Gems/SkillGemExplosiveConcoction",
+    "name": "エクスプローシブコンコクション",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemEyeOfWinter": {
+    "id": "Metadata/Items/Gems/SkillGemEyeOfWinter",
+    "name": "アイオブウィンター",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemPoisonousConcoction": {
+    "id": "Metadata/Items/Gems/SkillGemPoisonousConcoction",
+    "name": "ポイゾナスコンコクション",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemTemporalRift": {
+    "id": "Metadata/Items/Gems/SkillGemTemporalRift",
+    "name": "テンポラルリフト",
+    "primary_attribute": "dexterity",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemTornado": {
+    "id": "Metadata/Items/Gems/SkillGemTornado",
+    "name": "トルネード",
+    "primary_attribute": "dexterity",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemEnergyBlade": {
+    "id": "Metadata/Items/Gems/SkillGemEnergyBlade",
+    "name": "エナジーブレード",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemSoulLink": {
+    "id": "Metadata/Items/Gems/SkillGemSoulLink",
+    "name": "ソウルリンク",
+    "primary_attribute": "intelligence",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameLink": {
+    "id": "Metadata/Items/Gems/SkillGemFlameLink",
+    "name": "フレイムリンク",
+    "primary_attribute": "strength",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVampiricLink": {
+    "id": "Metadata/Items/Gems/SkillGemVampiricLink",
+    "name": "ヴァンパイアリンク",
+    "primary_attribute": "dexterity",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemProtectiveLink": {
+    "id": "Metadata/Items/Gems/SkillGemProtectiveLink",
+    "name": "プロテクティブリンク",
+    "primary_attribute": "strength",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemIntuitiveLink": {
+    "id": "Metadata/Items/Gems/SkillGemIntuitiveLink",
+    "name": "インテュイティブリンク",
+    "primary_attribute": "dexterity",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemDestructiveLink": {
+    "id": "Metadata/Items/Gems/SkillGemDestructiveLink",
+    "name": "ディストラクティブリンク",
+    "primary_attribute": "intelligence",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemDivineBlessing": {
+    "id": "Metadata/Items/Gems/SupportGemDivineBlessing",
+    "name": "ディバインブレッシングサポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemMarkOnHit": {
+    "id": "Metadata/Items/Gems/SupportGemMarkOnHit",
+    "name": "ヒット時呪印サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemEternalBlessing": {
+    "id": "Metadata/Items/Gems/SupportGemEternalBlessing",
+    "name": "エターナルブレッシングサポート",
+    "primary_attribute": "strength",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemOvercharge": {
+    "id": "Metadata/Items/Gems/SupportGemOvercharge",
+    "name": "過充電サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemLightningConduit": {
+    "id": "Metadata/Items/Gems/SkillGemLightningConduit",
+    "name": "ライトニングコンジット",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemGalvanicField": {
+    "id": "Metadata/Items/Gems/SkillGemGalvanicField",
+    "name": "ガルヴァニックフィールド",
+    "primary_attribute": "intelligence",
+    "required_level": 16,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemAlchemistsMark": {
+    "id": "Metadata/Items/Gems/SkillGemAlchemistsMark",
+    "name": "Alchemist's Mark",
+    "primary_attribute": "dexterity",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVolcanicFissure": {
+    "id": "Metadata/Items/Gems/SkillGemVolcanicFissure",
+    "name": "ヴォルカニックフィッシャー",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalVolcanicFissure": {
+    "id": "Metadata/Items/Gems/SkillGemVaalVolcanicFissure",
+    "name": "ヴァールヴォルカニックフィッシャー",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrozenLegion": {
+    "id": "Metadata/Items/Gems/SkillGemFrozenLegion",
+    "name": "フローズンリージョン",
+    "primary_attribute": "strength",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalCleave": {
+    "id": "Metadata/Items/Gems/SkillGemVaalCleave",
+    "name": "ヴァールクリーヴ",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalCausticArrow": {
+    "id": "Metadata/Items/Gems/SkillGemVaalCausticArrow",
+    "name": "ヴァールコースティックアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalMoltenStrike": {
+    "id": "Metadata/Items/Gems/SkillGemVaalMoltenStrike",
+    "name": "ヴァールモルテンストライク",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemCursedGround": {
+    "id": "Metadata/Items/Gems/SupportGemCursedGround",
+    "name": "呪い領域サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemHexBloom": {
+    "id": "Metadata/Items/Gems/SupportGemHexBloom",
+    "name": "呪術開花サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemVaalVenomGyre": {
+    "id": "Metadata/Items/Gems/SkillGemVaalVenomGyre",
+    "name": "ヴァールヴェノムジャイア",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalSmite": {
+    "id": "Metadata/Items/Gems/SkillGemVaalSmite",
+    "name": "ヴァールスマイト",
+    "primary_attribute": "strength",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalChargedAttack": {
+    "id": "Metadata/Items/Gems/SkillGemVaalChargedAttack",
+    "name": "ヴァールブレードフラリー",
+    "primary_attribute": "dexterity",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalReap": {
+    "id": "Metadata/Items/Gems/SkillGemVaalReap",
+    "name": "ヴァールリープ",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalAnimateWeapon": {
+    "id": "Metadata/Items/Gems/SkillGemVaalAnimateWeapon",
+    "name": "ヴァールアニメイトウェポン",
+    "primary_attribute": "dexterity",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalLightningArrow": {
+    "id": "Metadata/Items/Gems/SkillGemVaalLightningArrow",
+    "name": "ヴァールライトニングアロー",
+    "primary_attribute": "dexterity",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalAbsolution": {
+    "id": "Metadata/Items/Gems/SkillGemVaalAbsolution",
+    "name": "ヴァールアブソリューション",
+    "primary_attribute": "strength",
+    "required_level": 12,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalDomination": {
+    "id": "Metadata/Items/Gems/SkillGemVaalDomination",
+    "name": "ヴァールドミネーション",
+    "primary_attribute": "strength",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalIceShot": {
+    "id": "Metadata/Items/Gems/SkillGemVaalIceShot",
+    "name": "ヴァールアイスショット",
+    "primary_attribute": "dexterity",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFirestorm": {
+    "id": "Metadata/Items/Gems/SkillGemVaalFirestorm",
+    "name": "ヴァールファイヤーストーム",
+    "primary_attribute": "intelligence",
+    "required_level": 28,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalRejuvenationTotem": {
+    "id": "Metadata/Items/Gems/SkillGemVaalRejuvenationTotem",
+    "name": "ヴァールリジュヴェネーショントーテム",
+    "primary_attribute": "strength",
+    "required_level": 4,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemManaforgedArrows": {
+    "id": "Metadata/Items/Gems/SupportGemManaforgedArrows",
+    "name": "マナフォージアローサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemPrismaticBurst": {
+    "id": "Metadata/Items/Gems/SupportGemPrismaticBurst",
+    "name": "プリズマティックバーストサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 1,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemChannelledSnipe": {
+    "id": "Metadata/Items/Gems/SkillGemChannelledSnipe",
+    "name": "スナイプ",
+    "primary_attribute": "dexterity",
+    "required_level": 34,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemQuickstep": {
+    "id": "Metadata/Items/Gems/SkillGemQuickstep",
+    "name": "クイックステップ",
+    "primary_attribute": "none",
+    "required_level": 1,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemTrauma": {
+    "id": "Metadata/Items/Gems/SupportGemTrauma",
+    "name": "外傷サポート",
+    "primary_attribute": "strength",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellblade": {
+    "id": "Metadata/Items/Gems/SupportGemSpellblade",
+    "name": "スペルブレードサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemDevour": {
+    "id": "Metadata/Items/Gems/SupportGemDevour",
+    "name": "貪りサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemFreshMeat": {
+    "id": "Metadata/Items/Gems/SupportGemFreshMeat",
+    "name": "フレッシュミートサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemFlamewood": {
+    "id": "Metadata/Items/Gems/SupportGemFlamewood",
+    "name": "フレイムウッドサポート",
+    "primary_attribute": "strength",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemCorruptingCry": {
+    "id": "Metadata/Items/Gems/SupportGemCorruptingCry",
+    "name": "コラプティングクライサポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemGuardiansBlessing": {
+    "id": "Metadata/Items/Gems/SupportGemGuardiansBlessing",
+    "name": "Guardian's Blessing Support",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSacrifice": {
+    "id": "Metadata/Items/Gems/SupportGemSacrifice",
+    "name": "生贄サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemFrigidBond": {
+    "id": "Metadata/Items/Gems/SupportGemFrigidBond",
+    "name": "極寒の絆サポート",
+    "primary_attribute": "intelligence",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemLocusMine": {
+    "id": "Metadata/Items/Gems/SupportGemLocusMine",
+    "name": "ローカスマインサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 8,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemSadism": {
+    "id": "Metadata/Items/Gems/SupportGemSadism",
+    "name": "サディズムサポート",
+    "primary_attribute": "dexterity",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemControlledBlaze": {
+    "id": "Metadata/Items/Gems/SupportGemControlledBlaze",
+    "name": "制御火炎サポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemVolatility": {
+    "id": "Metadata/Items/Gems/SupportGemVolatility",
+    "name": "ボラティリティサポート",
+    "primary_attribute": "strength",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SkillGemAutomation": {
+    "id": "Metadata/Items/Gems/SkillGemAutomation",
+    "name": "自動化",
+    "primary_attribute": "intelligence",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SkillGemCallToArms": {
+    "id": "Metadata/Items/Gems/SkillGemCallToArms",
+    "name": "奮起自動化",
+    "primary_attribute": "strength",
+    "required_level": 24,
+    "is_support": false
+  },
+  "Metadata/Items/Gems/SupportGemSacredWisps": {
+    "id": "Metadata/Items/Gems/SupportGemSacredWisps",
+    "name": "聖なるウィスプサポート",
+    "primary_attribute": "intelligence",
+    "required_level": 18,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemOverexertion": {
+    "id": "Metadata/Items/Gems/SupportGemOverexertion",
+    "name": "過剰奮起サポート",
+    "primary_attribute": "strength",
+    "required_level": 38,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemExpertRetaliation": {
+    "id": "Metadata/Items/Gems/SupportGemExpertRetaliation",
+    "name": "熟練の報復サポート",
+    "primary_attribute": "strength",
+    "required_level": 31,
+    "is_support": true
+  },
+  "Metadata/Items/Gems/SupportGemRupture": {
+    "id": "Metadata/Items/Gems/SupportGemRupture",
+    "name": "裂傷サポート",
+    "primary_attribute": "dexterity",
+    "required_level": 38,
+    "is_support": true
+  }
+}
